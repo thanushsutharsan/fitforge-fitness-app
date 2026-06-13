@@ -1,1 +1,1 @@
-# fitforge-fitness-app
+# FitForge Fitness App
