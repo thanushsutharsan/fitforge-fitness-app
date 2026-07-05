@@ -10,3 +10,16 @@ This website is designed to support users who want to improve their fitness and 
  - BootStrap
  - Git/Github
  - VsCode
+
+## User Experience Design (UXD) 
+
+### Overview
+This website is designed to help user improve their fitness and create healthy eating habits by providing a range of fitness and nutrition tools in one place to help support their health and fitness journey.
+
+### Purpose
+
+The purpose of the website is to encourage users to adpat a balanced lifestyle by making fitness and nutrition more accessible and easier to understand. The aim is to provide users with practical tools, helpful information and guidance that support regular exercise, healthier eating habits and overall wellbeing
+
+The webiste has been designed with clean mordern and user friendly layout to ensure it is easy to navigate through and accessible for a wide range of users keeping them motivated and consistent with their goals.
+
+
