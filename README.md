@@ -64,6 +64,11 @@ The webiste has been designed with clean mordern and user friendly layout to ens
 - As a Frequent Visitor, I want to access different sections of the website quickly and smoothly by using the CTA buttons.
 - As a Frequent Visitor, I want to revisit the meal examples provided so I can make healthier food choices throughout the day to support my training journey.
 
+### I. Strategy
+
+#### Target Audience
+
+This website is for individuals who are interested improving their fitness health and overall lifestyle. This ranges from beginners who are starting their fitness journey and need tools to guide them, to regular gym members and athletes who want to improve performance it is also suitable for people who are foccused on nutrition and want to maintain a balanced diet. Overall, the website is designed for anyone looking for a easy an assesible way to combine workout training , monitoring and nutrition support in one place.
 
 
 
