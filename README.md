@@ -88,6 +88,20 @@ The key goal of the website is to encourage users to improve thier fitness and n
 - Users need the website to work effectively across desktops, tablets and mobile devices.
 - Users should be able to quickly access workouts,nutrition, information and fitness tools without feeling overwhemled.
 - Users needs a simple, user freindly interface that makes it easy to stay engaged and motivated throughout the fitness journey.
+---
+### II. Scope
+
+#### MVP (Minimum Viable Product)
+- Must have a Homepage with a hero section, navigation bar and clear CTA buttons linking to workouts and nutrition pages, aswell as get started button linked to a google form .(Home)
+- Must have a workout page that includes a built in stop watch with a lap button and images of different muscle groups with each image linking to relevant workout routine videos. (Workout)
+- Must have a nutrition page featuring a Macronutrient calculator, key nutrition facts, healthy meal inpirations for breakfast, lunch and dinner and tips to help users optimise their nutrition. (Nutrition)
+- Must have a footer at the bottom of ever page containing social media links with copyright information. (Footer)
+- Must have a responsive navigation bar that allows users to easily move between all pages smoothly.
+
+#### Further Developments
+- Add Personalised workout plans based on the users fitness goals and experience levels
+- Introduce Progress tracking so users can monitor progress overtime.
+
 
 
 
