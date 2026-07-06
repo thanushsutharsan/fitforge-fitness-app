@@ -63,7 +63,7 @@ The webiste has been designed with clean mordern and user friendly layout to ens
 - As a Frequent Visitor, I want to revisit the website before each gym session so I can plan my workout.
 - As a Frequent Visitor, I want to access different sections of the website quickly and smoothly by using the CTA buttons.
 - As a Frequent Visitor, I want to revisit the meal examples provided so I can make healthier food choices throughout the day to support my training journey.
-
+------
 ### I. Strategy
 
 #### Target Audience
@@ -72,6 +72,22 @@ This website is for individuals who are interested improving their fitness healt
 
 #### Content
 The content of the website is relevant appropriate as it provides users with useful fitness and nutrition resources to support a healthier lifestyle. It includes workout guides, nutrition information, meal inspirations and practical tools that help users achieve thier fitness goals. The use of images throughout the website makes the content more engaging and easier to understand this creates a better user experience by presenting information visually, reducing text overload and making a seemless smooth experience.
+
+#### Problems and Solutions
+
+One of the problems users face when trying to improve thier fitness is not knowing where to start. Many people struggle to find reliable workout guidance, understand the nutritional needs or stay motivated to maintain a healthier lifestyle.
+
+To solve this, I developed this website to provide users with accessible fitness and nutritional rescources in one place. The website offers workout guidance, a stopwatch to help time exercise intervals, a macronutrient calculator, nutrition tips and meal inspiration making it easier for users to begin and stay consistent with their health and fitness journey.
+
+#### Buisness Goals
+The key goal of the website is to encourage users to improve thier fitness and nutrition by providing easy to use tools, workout rescources and healthy lifestyle guidance. It aims to help users stay motivated, build consistent habits and make informed decisions about their health and well-being.
+
+#### User Needs
+
+- Users should be able to navigate easily between the Home,Workouts and Nutrition pages.
+- Users need the website to work effectively across desktops, tablets and mobile devices.
+- Users should be able to quickly access workouts,nutrition, information and fitness tools without feeling overwhemled.
+- Users needs a simple, user freindly interface that makes it easy to stay engaged and motivated throughout the fitness journey.
 
 
 
