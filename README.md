@@ -128,20 +128,20 @@ The key goal of the website is to encourage users to improve thier fitness and n
 
 #### Information Architecture & Logical Organisation of Features
 
-- Homepage (index.html) - Logo, Hero section, website introduction and clear CTA buttons linking to workout page, nutrition page and google forms for the get started CTA button.
+- Homepage (index.html) - Logo, Hero section, website introduction, Start your Journey CTA button, why choose FitForge Section and chose your fitness goal section.
 - Workout (workout.html) - A built in stopwatch, images of different muscle groups and links to workout for each muscle groups.
 - Nutrition (nutrition.html) - A macronutrient calculator, nutrition facts, healthy meal inspiration and tips help users optimise their nutrtion.
 - Footer - Social media links and copyright information.
 
 #### User Flow
 
-1. Users land on the homepage where there are introduced to the website and presented with CTA buttons to explore the workout and nutrition pages or click get started to open an external tab of a google forms page.
+1. Users land on the homepage where there are introduced to the website and presented with a CTA button (Start your Journey) which directs them to the workout page.
 
-2. Users can naviagte to the workout page either via CTA buttons on the Homepage or navigation bar to use the stopwatch and explore a variety of exercises available.
+2. Users can naviagte to the workout page via/ the navigation bar or the start your journey CTA button on the homepage to use the stopwatch and explore a variety of exercises available.
 
-3. Users can visit the nutrition page either via the CTA buttons on the Homepage or navigation bar to use the Macronutrient Calculator, read nutrition tips and browse healthy meal ideas.
+3. Users can visit the nutrition page via/ the navigation bar to use the Macronutrient Calculator, read nutrition tips and browse healthy meal ideas.
 
-4. Users can navigate between all the pages using the navigation bar or return to the Homepage at any given time by using the nav bar or clicking the main logo on the top-left.
+4. Users can navigate between all the pages using the navigation bar or return to the Homepage at any given time by using the nav bar or clicking the main logo on the top center.
 
 5. Users can access social media links on all pages by the footer locted at the bottom of the page.
 
