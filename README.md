@@ -63,6 +63,25 @@ The webiste has been designed with clean mordern and user friendly layout to ens
 - As a Frequent Visitor, I want to revisit the website before each gym session so I can plan my workout.
 - As a Frequent Visitor, I want to access different sections of the website quickly and smoothly by using the CTA buttons.
 - As a Frequent Visitor, I want to revisit the meal examples provided so I can make healthier food choices throughout the day to support my training journey.
+
+### Research
+To make sure my website was designed around the needs of real users, I followed the User-Centred Design (UCD) approach by carrying out research before I started building the website. Instead of guessing what people might struggle with, I watched Instagram Reels from real people sharing their fitness journeys and experiences. I also looked through the comments to see what other people were saying and what problems they were facing.
+
+From my research, I noticed that a lot of beginners didn’t know where to start, found it hard to stay motivated, or weren’t sure which exercises were right for them. I also saw that many people felt overwhelmed because there is so much fitness advice online, and not all of it is relevant to their goals. I found that athletes and sports users had different needs too, as they were more focused on improving performance rather than losing weight.
+
+This research helped me make decisions about how to my website. One feature I added was a fitness goal question where users choose either “I want to lose weight” or “Athlete/Sports User.” Depending on what they choose, they are shown a message relevant to their goals. This makes the website feel more personalised and helps users find what they need much quicker.
+
+The research also influenced the layout of my website. I kept the design simple, with clear headings, easy navigation, and straightforward information so users wouldn’t feel overwhelmed. My aim was to make the website easy to use for both beginners and more experienced users.
+
+Overall, using the User-Centred Design approach meant that my decisions were based on real user experiences rather than my own assumptions. This helped me create a website that is more useful, easier to navigate, and better suited to the people who will be using it.
+
+| Findings from Instagram Reel | How it influenced my website |
+| ---------------------------- | ---------------------------- |
+| Many beginner fitness creators shared videos explianing how do I start my workout and how intimidating it can be. https://www.instagram.com/reel/DW9p393iNYF/?igsh=MW9lNGF5MzdsN2Rtdg== | I will use motivational langauge that is easy to understand with visual images to make it inclusive to all levels of people regardless of there experience | 
+| A lot of comments on workout reels ask which exercises are best for weight loss or athlete training | I will implement a section on the homepage where users can select their fitness goal and a message will show what they need to work on. |
+| Many people discuss how they easily loose motivation and find it difficult to find workouts. | I will keep the website simple with clear naviagtion so users can quickly access information without feeling overwhelmed. I will also provide links with CTA buttons to youtube videos with key workout guides. |
+| Research on Instagram using the hashtags #fitness #fitnessinspiration comes up with and focusses on the ideal body  rather than how to get there.  https://www.instagram.com/reel/DZxtBs3vd-X/?igsh=c3BuM2x0NnR6bnFl | I will foccus my website on helping users achieve their own fitness goals rather than comparing themselves to unrealistic body standards. |
+
 ------
 ### I. Strategy
 
