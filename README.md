@@ -32,7 +32,7 @@ The webiste has been designed with clean mordern and user friendly layout to ens
 **People Looking to Lose Weight**
 
 *First Time Visitor...*
-- As a First Time Visitor, I want complete the get started form so I begin my fitness journey.
+- As a First Time Visitor, I want to know which guidance to follow by using the CTA buttons of lose weight and athlete training.
 - As a First Time Visitor, I want to use the Macronutrient Calculator so I can understand my nutritional requirements.
 - As a First Time Visitor, I want to explore different workouts so I can exercise different parts of my body.
 
@@ -52,7 +52,7 @@ The webiste has been designed with clean mordern and user friendly layout to ens
 *First Time Visitor...*
 - As a First Time Visitor, I want to find workouts for specific muscle groups so I can talior my training sessions to my needs.
 - As a First Time Visitor, I want to use Macronutrient Calculator so I can understand my nutritional needs for muscle growth and recovery.
-- As a First Time Visitor, I want to use the CTA buttons on the homepage so I can access different sections of the website.
+- As a First Time Visitor, I want to use CTA button (Start Your Journey) on the homepage to access the workout page seemlessly.
 
 *Returning Vistor...*
 - As a Returning Visitor, I want to use the stopwatch to accurately time my sets for my training sessions.
@@ -61,7 +61,7 @@ The webiste has been designed with clean mordern and user friendly layout to ens
 
 *Frequent Visitor*
 - As a Frequent Visitor, I want to revisit the website before each gym session so I can plan my workout.
-- As a Frequent Visitor, I want to access different sections of the website quickly and smoothly by using the CTA buttons.
+- As a Frequent Visitor, I want to re-access the stopwatch to time my daily sessions.
 - As a Frequent Visitor, I want to revisit the meal examples provided so I can make healthier food choices throughout the day to support my training journey.
 
 ### Research
