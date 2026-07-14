@@ -145,7 +145,93 @@ The key goal of the website is to encourage users to improve thier fitness and n
 
 5. Users can access social media links on all pages by the footer locted at the bottom of the page.
 
+---
+### IV. Skeleton
+
+Wireframes were used to plan each page and. give clear visual structure before creating the website.
+
+- Changes will be recorded with screenshots during the testing stage to show improvements from the original wireframe design.
+
+**WireFrame Justification**
+
+The **HOME** and **WORKOUT** pages contain a relatively small number of information cards, allowing their intended layout to be accurately represented within the wireframes. This provides a clear indication of how the content will be presented to users.
+
+In contrast, the **NUTRITION** page contains a significantly larger number of information cards. Including every card and producing separate wireframes to demonstrate how they would be displayed across desktop, tablet, and mobile devices would make the design unnecessarily complex and difficult to read. For this reason, an information box has been used to indicate where the information cards will be positioned.
+
+The information cards will be implemented using a combination of Bootstrap’s responsive grid system, CSS media queries, and custom CSS. This will allow the layout, sizing, spacing, and number of cards displayed per row to adapt dynamically to different screen sizes, ensuring the page remains fully responsive and provides an optimal user experience across all devices. As these adjustments will be handled during development, the use of an information box within the Nutrition page wireframe provides an appropriate and practical representation of the proposed design.
+
+ Homepage Wireframes
+ ---
 
 
+*Mobile wireframe*
+--
+![homepage-mobile-wireframe](assets/wireframes/homepage-mobile.png)
+
+*Tablet wireframe*
+--
+![homepage-tablet-wireframe](assets/wireframes/homepage-tablet.png)
+
+*Desktop wireframe*
+--
+![homepage-desktop-wireframe](assets/wireframes/homepage-desktop.png)
+
+- Header: Logo and the naviagtion bar in the center on all devices.
+- Short-brief: Short description of the website.
+    - CTA button: Start your Journey.
+- Why chose us section: Information cards 
+encouraging users to use the website.
+- Chose your fitness goal section: To make the website more interactive an personalised to the user.
+   - CTA button : Lose weight & Athlete training.
+- Footer: Social media links and copyright information.
+
+Workout Wireframes
+ ---
 
 
+*Mobile wireframe*
+--
+![workout-mobile-wireframe](assets/wireframes/workout-mobile.png)
+
+*Tablet wireframe*
+--
+![workout-tablet-wireframe](assets/wireframes/workout-tablet.png)
+
+*Desktop wireframe*
+--
+![workout-desktop-wireframe](assets/wireframes/workout-desktop.png)
+
+- Header: Consistent with the homepage design and navigation.
+- Main content: Displays workout images and descriptions, each paired with a clear CTA button linking to the relevant workout youtube video. A stopwatch is positioned beneath the workout images to help users find their exercise duration.
+- Footer: Matches the homepage footer for consistent user experience.
+
+Nutrition Wireframes
+ ---
+
+
+*Mobile wireframe*
+--
+![nutrition-mobile-wireframe](assets/wireframes/nutrition-mobile.png)
+
+*Tablet wireframe*
+--
+![nutrition-tablet-wireframe](assets/wireframes/nutrition-tablet.png)
+
+*Desktop wireframe*
+--
+![nutrition-desktop-wireframe](assets/wireframes/nutrition-desktop.png)
+
+- Header: Consistent with the homepage design and navigation.
+- Main content: Features an interactive nutrition calculator at the top of the page, followed by informative content boxes providing nutritional gudiance, tips and relevant health information.
+- Footer: Matches the homepage footer for consistent user experience.
+
+#### Design Points
+
+- Use a consistent layout across all pages so that users have the same experience throughout the website. The header, navigation bar, colour scheme and footer will remain the same on each page, making the website feel organised and professional.
+The website will be fully responsive, allowing it to work on mobile phones, tablets and desktop computers.
+
+- Carefully position the call-to-action buttons so they are easy to find and use. 
+
+- Design the navigation to be clear and straightforward so users can move between pages without confusion. The navigation bar will be available on every page, and page titles and headings will clearly show users where they are within the website.
+
+- Use consistent colours, fonts and spacing throughout the website to improve readability and create a professional appearance. This will help users focus on the content without being distracted by inconsistent styling.
