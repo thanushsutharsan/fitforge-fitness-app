@@ -254,7 +254,17 @@ The website will be fully responsive, allowing it to work on mobile phones, tabl
 ### V. Surface
 
 #### Color Scheme
-The colour scheme used throughout FitForge will be carefully selected to reflect the themes of fitness, health, motivation and performance. A consistent palette of black, lime green, white and subtle grey tones will be used across all three pages to create a professional and modern appearance whilst maintaining readability and accessibility.
+Color Palette Summary
+
+- Primary colors : Black, White + Lime Green (#BEE21F).
+- Supporting colors : Bright greens (#E8FC0B) ,(#CCE83D) (#EDF467) + Grey tones.
+- Design style created: Modern, energetic, professional fitness branding, with strong contrast and accessibility.
+
+![color-palette](assets/images/color-palette.png)
+
+To help develop the website’s colour scheme, I used Coolors to experiment with different colour combinations and generate potential palettes that would work effectively together. I then researched colour psychology and colour theory to understand how different colours could influence users’ emotions and perceptions (see Research section). This helped me select a final palette of lime green, black and white, as these colours create a balance between energy, professionalism and readability, which is suitable for a fitness-focused website. Using Coolors alongside my research allowed me to create a consistent visual identity that supports the purpose of the website and appeals to the target audience.
+
+**Justification**
 
 The primary colour used throughout the website will be lime green (#BEE21F). This colour will be used for headings, buttons, icons, call-to-action elements and the footer because it is strongly associated with health, energy and personal growth. As FitForge will focus on helping users achieve their fitness goals through exercise and nutrition, green will effectively reinforce the purpose of the website. The colour will immediately draw the user’s attention to important interactive elements such as the “Start Your Journey” button on the Homepage and the fitness goal selector. Using the same colour throughout all three pages will create a strong and recognisable brand identity.
 
