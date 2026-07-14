@@ -297,4 +297,13 @@ Call-to-action buttons will initially use the primary lime green colour and will
 
 These animations and effects will improve both the functionality and visual appeal of FitForge whilst remaining simple, consistent and easy for users to understand.
 
+---
+## References
+
+1. Akers, A., Barton, J., Cossey, R., Gainsford, P., Griffin, M. and Micklewright, D. (2012) ‘Visual Color Perception in Green Exercise: Positive Effects on Mood and Perceived Exertion’, Environmental Science & Technology, 46(16), pp. 8661–8666. Available at: https://pubs.acs.org/doi/10.1021/es301685g
+
+2. Labrecque, L.I. and Milne, G.R. (2012) ‘Exciting red and competent blue: The importance of color in marketing’, Journal of the Academy of Marketing Science, 40, pp. 711–727. Available at: https://doi.org/10.1007/s11747-010-0245-y
+
+3. Lupton, E. and Phillips, J.C. (2015) Graphic Design: The New Basics. 2nd edn. New York: Princeton Architectural Press.
+
 
