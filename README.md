@@ -82,6 +82,20 @@ Overall, using the User-Centred Design approach meant that my decisions were bas
 | Many people discuss how they easily loose motivation and find it difficult to find workouts. | I will keep the website simple with clear naviagtion so users can quickly access information without feeling overwhelmed. I will also provide links with CTA buttons to youtube videos with key workout guides. |
 | Research on Instagram using the hashtags #fitness #fitnessinspiration comes up with and focusses on the ideal body  rather than how to get there.  https://www.instagram.com/reel/DZxtBs3vd-X/?igsh=c3BuM2x0NnR6bnFl | I will foccus my website on helping users achieve their own fitness goals rather than comparing themselves to unrealistic body standards. |
 
+#### Color Research
+Before creating the website, I researched color psychology, fitness website design and colour theory principles to identify color that would be suitable for both the purpose of the website and its target audience. I experimented with different color combinations using complementary and monochromatic colour palettes to find a scheme that balanced professionalism, readability and visual appeal. 
+
+The final colors palette of black, lime green and white was selected because these colors work effectively together whilst reflecting the themes of health, fitness and motivation. 
+
+- Lime green provides an energetic and positive appearance that is associated with wellbeing, growth and balance, with research suggesting that exposure to green environments can improve mood and reduce perceived exertion during exercise (Akers et al., 2012).
+
+ - Black creates a modern and professional aesthetic commonly used by fitness brands, as darker colors are often associated with power, sophistication and authority in branding (Labrecque and Milne, 2012). 
+ 
+ - White improves readability and accessibility by creating contrast, reducing visual clutter and supporting a clean design layout, which are important principles in effective graphic design (Lupton and Phillips, 2015). 
+
+ Using color theory principles allowed me to create a consistent visual identity across all pages whilst ensuring that important information remains easy for users to recognise and navigate.
+
+
 ------
 ### I. Strategy
 
