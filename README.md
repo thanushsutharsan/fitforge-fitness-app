@@ -235,3 +235,52 @@ The website will be fully responsive, allowing it to work on mobile phones, tabl
 - Design the navigation to be clear and straightforward so users can move between pages without confusion. The navigation bar will be available on every page, and page titles and headings will clearly show users where they are within the website.
 
 - Use consistent colours, fonts and spacing throughout the website to improve readability and create a professional appearance. This will help users focus on the content without being distracted by inconsistent styling.
+
+---
+### V. Surface
+
+#### Color Scheme
+The colour scheme used throughout FitForge will be carefully selected to reflect the themes of fitness, health, motivation and performance. A consistent palette of black, lime green, white and subtle grey tones will be used across all three pages to create a professional and modern appearance whilst maintaining readability and accessibility.
+
+The primary colour used throughout the website will be lime green (#BEE21F). This colour will be used for headings, buttons, icons, call-to-action elements and the footer because it is strongly associated with health, energy and personal growth. As FitForge will focus on helping users achieve their fitness goals through exercise and nutrition, green will effectively reinforce the purpose of the website. The colour will immediately draw the user’s attention to important interactive elements such as the “Start Your Journey” button on the Homepage and the fitness goal selector. Using the same colour throughout all three pages will create a strong and recognisable brand identity.
+
+Black will be chosen as the main background colour because it will create a bold and professional appearance that is commonly associated with fitness brands. Black will convey strength, focus and determination, making it highly appropriate for a fitness application. It will also provide excellent contrast when combined with the lime green headings and white text, ensuring that all information remains easy to read. The dark background will allow the workout and nutrition imagery to stand out whilst maintaining consistency across the website.
+
+Semi-transparent black backgrounds (rgba(0,0,0,0.45) and rgba(0,0,0,0.35)) will be applied to information cards, hero sections and content containers to create a glassmorphism effect. This modern design choice will allow the background images on each page to remain visible whilst ensuring that text remains readable. The transparency will soften the appearance of the website and prevent the background images from becoming distracting to users.
+
+The **HOMEPAGE** will use lime green extensively to encourage user engagement. The colour will highlight the main heading, feature icons and buttons that will guide users towards beginning their fitness journey. Green has been chosen because it symbolises positive lifestyle changes and healthy habits, making it particularly suitable for encouraging users to explore workout plans and nutritional guidance. The bright navigation bar colour (#E8FC0B) will complement the primary green theme whilst making the navigation links immediately visible and accessible.
+
+The **WORKOUT** page will reinforce the themes of strength, determination and performance through its colour choices. The workout cards will use dark transparent backgrounds combined with lime green headings to emphasise the different training programmes available. The stopwatch feature will use several shades of green and yellow (#BEE21F, #CCE83D and #EDF467) to distinguish the Start, Reset and Stop controls. Using related colours will allow users to quickly identify the timer functions whilst maintaining consistency with the overall website theme. The bright colours will provide clear visual feedback and improve usability during exercise sessions when users may need to interact with the controls quickly.
+
+The **NUTRITION** page will use the same colour palette to maintain consistency whilst supporting its focus on healthy eating and wellbeing. Green will be particularly appropriate for nutritional content because it is widely associated with healthy food choices and wellness. The macronutrient calculator and informational cards will use dark backgrounds and white text to maximise readability whilst keeping the interface clean and professional. The white nutritional tables will improve accessibility by clearly separating data and making the recommended macronutrient percentages easy to understand.
+
+White will be used throughout the website because it will provide excellent readability when displayed against darker backgrounds. It will be used for body text, stopwatch displays, hover effects and table content to ensure that important information is clearly visible. Interactive elements will change to white when hovered over to provide users with immediate visual feedback, improving the overall user experience and accessibility of the website.
+
+The **FOOTER** will maintain the primary lime green colour used throughout the website to create a sense of consistency and completion across all pages. The social media section will use a light grey colour (#F1EAEA) alongside dark icons to separate it visually from the footer whilst remaining clean and professional. This subtle colour variation will prevent the design from becoming repetitive whilst maintaining strong contrast for readability
+
+
+#### Typography (Choices)
+
+I chose Teko as the primary font because its bold, modern and athletic appearance complements the fitness theme of the FitForge website. The tall and condensed lettering creates a strong visual impact and allows headings and important information to stand out clearly. This is particularly beneficial for users who want to quickly navigate between workouts, nutritional advice and fitness tools. The style of Teko also reflects themes of motivation, strength and performance, making it highly suitable for a fitness-based application.
+
+Arial was selected as the secondary font because it is clean, professional and highly readable across a wide range of devices and screen sizes. Its simple design complements Teko without distracting from the overall appearance of the website. Arial helps maintain consistency throughout the website whilst ensuring that body text remains easy to read, improving the overall user experience.
+
+Sans-serif has been included as the fallback font family because it is universally supported across modern browsers and operating systems. If either Teko or Arial cannot be loaded, the website will still display clear and accessible text without affecting the layout or functionality of the pages. Including a fallback font improves accessibility, responsiveness and compatibility, ensuring that all users receive a consistent experience regardless of the device or browser they are using.
+
+#### Images and visuals 
+
+I will use high-quality fitness and nutrition images throughout my website to make the content more engaging and motivating for users. The visuals help users quickly understand the purpose of each section, such as workouts, healthy eating and fitness goals, without relying only on text.
+
+I will use alt text to all images to improve accessibility. This allows screen readers to describe the images to visually impaired users and also provides alternative text if an image fails to load.
+
+I will use icons and visual cards to break up information into smaller sections, making the website easier to scan and navigate. This creates a cleaner layout, improves the overall user experience and keeps users engaged while exploring the website.
+
+#### Animation & Effects
+
+I will use animations and hover effects throughout my website to make it feel more interactive and engaging for users. Buttons, navigation links and cards will respond when users interact with them, providing clear visual feedback and improving the overall user experience.
+
+Call-to-action buttons will initially use the primary lime green colour and will change to white when hovered over, making it clear that they are interactive elements. Navigation links will also include subtle hover effects to help users identify their current selection more easily Additionally, information cards will slightly move when hovered over to make the website feel more responsive whilst maintaining a professional appearance.
+
+These animations and effects will improve both the functionality and visual appeal of FitForge whilst remaining simple, consistent and easy for users to understand.
+
+
