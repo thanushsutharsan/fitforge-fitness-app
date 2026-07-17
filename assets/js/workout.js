@@ -9,3 +9,10 @@ const secBox = document.querySelector('.sec');
 const msBox = document.querySelector('.ms');
 
 const lapContainer = document.querySelector('.laps');
+let hrs = 0;
+let min = 0;
+let sec = 0;
+let ms = 0;
+
+let startTimer = null;
+let running = false;
