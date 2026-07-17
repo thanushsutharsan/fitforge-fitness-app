@@ -80,3 +80,10 @@ btnLap.addEventListener('click', () => {
 function format(num) {
   return num < 10 ? '0' + num : num;
 }
+// display update 
+function updateDisplay() {
+  hrsBox.innerText = format(hrs);
+  minBox.innerText = format(min);
+  secBox.innerText = format(sec);
+  msBox.innerText = format(ms);
+}
