@@ -63,3 +63,16 @@ btnReset.addEventListener('click', () => {
   updateDisplay();
   lapContainer.innerHTML = '';
 });
+
+// lap
+btnLap.addEventListener('click', () => {
+  if (!running) return;
+  const lapTime =
+    `${format(hrs)}:${format(min)}:${format(sec)}:${format(ms)}`;
+
+  const lap = document.createElement('div');
+  lap.classList.add('lap');
+  lap.innerText = lapTime;
+
+  lapContainer.prepend(lap);
+});
