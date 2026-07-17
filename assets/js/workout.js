@@ -42,3 +42,10 @@ btnStart.addEventListener('click', () => {
     updateDisplay();
   }, 10);
 });
+
+// stop/ pause
+btnStop.addEventListener('click', () => {
+  clearInterval(startTimer);
+  startTimer = null;
+  running = false;
+});
