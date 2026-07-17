@@ -49,3 +49,17 @@ btnStop.addEventListener('click', () => {
   startTimer = null;
   running = false;
 });
+
+// reset
+btnReset.addEventListener('click', () => {
+  clearInterval(startTimer);
+  startTimer = null;
+  running = false;
+  hrs = 0;
+  min = 0;
+  sec = 0;
+  ms = 0;
+
+  updateDisplay();
+  lapContainer.innerHTML = '';
+});
