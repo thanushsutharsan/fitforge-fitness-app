@@ -76,3 +76,7 @@ btnLap.addEventListener('click', () => {
 
   lapContainer.prepend(lap);
 });
+// format time
+function format(num) {
+  return num < 10 ? '0' + num : num;
+}
