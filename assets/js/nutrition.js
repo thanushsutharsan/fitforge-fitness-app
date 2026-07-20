@@ -28,4 +28,19 @@ function calculateMacros() {
     let carbPercent;
     let proteinPercent;
     let fatPercent;
+
+    // Set macro ratios based on the selected goal
+    if (goal === "loss") {
+        carbPercent = 0.35;
+        proteinPercent = 0.40;
+        fatPercent = 0.25;
+    } else if (goal === "maintain") {
+        carbPercent = 0.40;
+        proteinPercent = 0.30;
+        fatPercent = 0.30;
+    } else {
+        carbPercent = 0.50;
+        proteinPercent = 0.25;
+        fatPercent = 0.25;
+    }
 }
