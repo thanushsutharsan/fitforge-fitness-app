@@ -19,4 +19,9 @@ function calculateMacros() {
         results.innerHTML = "<p>Please enter a valid calorie amount.</p>";
         return;
     }
+     // Check calorie range
+    if (calories < 1600 || calories > 3000) {
+        results.innerHTML = "<p>Please enter a calorie intake between 1600 and 3000 calories.</p>";
+        return;
+    }
 }
