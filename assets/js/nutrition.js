@@ -58,4 +58,11 @@ function calculateMacros() {
             grams: (calories * fatPercent) / 9
         }
     ];
+     let output = "<h3>Your Daily Macros</h3><ul>";
+
+    // Display each macro amount
+    for (const macro of macros) {
+        output += `<li>${macro.name}: ${macro.grams.toFixed(1)}g</li>`;
+    }
+    output += "</ul>";
 }
