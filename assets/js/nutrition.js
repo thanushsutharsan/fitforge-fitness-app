@@ -24,4 +24,8 @@ function calculateMacros() {
         results.innerHTML = "<p>Please enter a calorie intake between 1600 and 3000 calories.</p>";
         return;
     }
+
+    let carbPercent;
+    let proteinPercent;
+    let fatPercent;
 }
