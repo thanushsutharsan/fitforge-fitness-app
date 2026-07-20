@@ -43,4 +43,19 @@ function calculateMacros() {
         proteinPercent = 0.25;
         fatPercent = 0.25;
     }
+    
+    const macros = [
+        {
+            name: "Carbohydrates",
+            grams: (calories * carbPercent) / 4
+        },
+        {
+            name: "Protein",
+            grams: (calories * proteinPercent) / 4
+        },
+        {
+            name: "Fat",
+            grams: (calories * fatPercent) / 9
+        }
+    ];
 }
