@@ -65,4 +65,5 @@ function calculateMacros() {
         output += `<li>${macro.name}: ${macro.grams.toFixed(1)}g</li>`;
     }
     output += "</ul>";
+    results.innerHTML = output;
 }
