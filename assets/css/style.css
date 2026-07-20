@@ -24,3 +24,23 @@ main {
     flex:1;
 }
 
+/* global headings */
+
+h1,h2 {
+
+    color:#bee21f;
+    text-align:center;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    font-weight:600;
+}
+
+h1 {
+    font-size:clamp(40px,6vw,70px);
+}
+
+h2 {
+    font-size:clamp(32px,5vw,45px);
+}
+
+
