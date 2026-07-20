@@ -14,5 +14,9 @@ function calculateMacros() {
         results.innerHTML = "<p>Please enter your calories and choose a goal.</p>";
         return;
     }
-
+     // Make sure calories are valid
+    if (isNaN(calories) || calories <= 0) {
+        results.innerHTML = "<p>Please enter a valid calorie amount.</p>";
+        return;
+    }
 }
