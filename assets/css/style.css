@@ -1,0 +1,26 @@
+/* global styles */
+
+html {
+    scroll-behavior:smooth;
+}
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body {
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    font-family:"Teko", Arial, sans-serif;
+    color:rgb(239,234,234);
+    background:black;
+    overflow-x:hidden;
+}
+
+main {
+    flex:1;
+}
+
