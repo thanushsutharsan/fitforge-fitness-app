@@ -138,6 +138,28 @@ nav a.active::after {
     line-height:1.5;
 }
 
+/* button styles */
+
+.cta-btn,.goal-btn,.buttons button {
+    
+    display:inline-block;
+    background:#bee21f;
+    color:black;
+    border:none;
+    border-radius:8px;
+    padding:12px 30px;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.3s ease;
+}
+
+.cta-btn:hover,.goal-btn:hover,.buttons button:hover {
+    background:white;
+    transform:translateY(-3px);
+}
+
 
 
 
