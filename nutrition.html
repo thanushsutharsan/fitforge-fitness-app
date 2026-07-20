@@ -42,97 +42,91 @@
         </ul>
       </nav>
     </header>
-       
+
     <!-- Nutrition Calculator -->
-      <section class="calculator container py-5">
-        <h1 class="text-center mb-4">Macronutrient Calculator</h1>
+    <section class="calculator container py-5">
+      <h1 class="text-center mb-4">Macronutrient Calculator</h1>
 
-        <div class="row justify-content-center">
-          <div class="col-md-6">
-            <label for="calories" class="form-label"
-              >Enter Your Daily Calories</label
-            >
-            <input type="number" id="calories" class="form-control mb-3" />
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <label for="calories" class="form-label"
+            >Enter Your Daily Calories</label
+          >
+          <input type="number" id="calories" class="form-control mb-3" />
 
-            <label for="goal" class="form-label">Your Fitness Goal</label>
-            <select id="goal" class="form-select mb-3">
-              <option value="">Select Goal</option>
-              <option value="loss">Weight Loss</option>
-              <option value="maintain">Maintain Weight</option>
-              <option value="gain">Muscle Gain</option>
-            </select>
+          <label for="goal" class="form-label">Your Fitness Goal</label>
+          <select id="goal" class="form-select mb-3">
+            <option value="">Select Goal</option>
+            <option value="loss">Weight Loss</option>
+            <option value="maintain">Maintain Weight</option>
+            <option value="gain">Muscle Gain</option>
+          </select>
 
-            <button id="calculate-btn" class="btn btn-dark w-100">
-              Calculate
-            </button>
+          <button id="calculate-btn" class="btn btn-dark w-100">
+            Calculate
+          </button>
 
-            <div id="results" class="mt-4"></div>
+          <div id="results" class="mt-4"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Nutrition Basics -->
+    <section class="nutrition-info container py-5">
+      <div class="text-center mb-5">
+        <h2>Nutrition Basics</h2>
+        <p>
+          Understanding macronutrients is essential for improving performance,
+          recovery, and overall health.
+        </p>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h3>Protein</h3>
+              <p>
+                Protein helps build and repair muscle tissue and is important
+                for recovery after exercise.
+              </p>
+              <p>
+                <strong>Sources:</strong> Chicken, fish, eggs, Greek yogurt,
+                beans.
+              </p>
+            </div>
           </div>
         </div>
-      </section>
-       
-      <!-- Nutrition Basics -->
-    <section class="nutrition-info container py-5">
 
-        <div class="text-center mb-5">
-            <h2>Nutrition Basics</h2>
-            <p>
-                Understanding macronutrients is essential for improving
-                performance, recovery, and overall health.
-            </p>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h3>Carbohydrates</h3>
+              <p>
+                Carbohydrates are the body's main source of energy and help fuel
+                workouts and daily activities.
+              </p>
+              <p>
+                <strong>Sources:</strong> Rice, oats, potatoes, fruits, whole
+                grains.
+              </p>
+            </div>
+          </div>
         </div>
 
-        <div class="row g-4">
-
-            <div class="col-md-4">
-                <div class="card h-100">
-                    <div class="card-body">
-                        <h3>Protein</h3>
-                        <p>
-                            Protein helps build and repair muscle tissue and is
-                            important for recovery after exercise.
-                        </p>
-                        <p>
-                            <strong>Sources:</strong> Chicken, fish, eggs,
-                            Greek yogurt, beans.
-                        </p>
-                    </div>
-                </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h3>Healthy Fats</h3>
+              <p>
+                Healthy fats support hormone production, brain function, and
+                overall health.
+              </p>
+              <p><strong>Sources:</strong> Nuts, avocado, olive oil, salmon.</p>
             </div>
-
-            <div class="col-md-4">
-                <div class="card h-100">
-                    <div class="card-body">
-                        <h3>Carbohydrates</h3>
-                        <p>
-                            Carbohydrates are the body's main source of energy
-                            and help fuel workouts and daily activities.
-                        </p>
-                        <p>
-                            <strong>Sources:</strong> Rice, oats, potatoes,
-                            fruits, whole grains.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="card h-100">
-                    <div class="card-body">
-                        <h3>Healthy Fats</h3>
-                        <p>
-                            Healthy fats support hormone production, brain
-                            function, and overall health.
-                        </p>
-                        <p>
-                            <strong>Sources:</strong> Nuts, avocado, olive oil,
-                            salmon.
-                        </p>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-
+      </div>
     </section>
   </body>
 </html>
