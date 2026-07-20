@@ -43,4 +43,73 @@ h2 {
     font-size:clamp(32px,5vw,45px);
 }
 
+/* header and nav-bar */
+
+header {
+
+    width:100%;
+    padding:10px 0;
+    background:rgba(0,0,0,0.35);
+    backdrop-filter:blur(6px);
+}
+
+
+#menu {
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:15px;
+}
+
+
+
+#logo {
+    width:200px;
+    height:auto;
+}
+
+
+nav ul {
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:15px;
+    padding:10px 20px;
+    background:#e8fc0b;
+    border-radius:15px;
+}
+
+
+nav a {
+    position:relative;
+    text-decoration:none;
+    color:#100e01;
+    font-size:17px;
+    font-weight:600;
+    text-transform:uppercase;
+}
+
+
+nav a::after {
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:-4px;
+    width:0;
+    height:2px;
+    background:black;
+    transition:.3s ease;
+}
+
+nav a:hover::after,
+nav a.active::after {
+        width:100%;
+}
+
+
+
+
 
