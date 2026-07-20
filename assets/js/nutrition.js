@@ -8,5 +8,11 @@ function calculateMacros() {
 
     const calories = Number(caloriesInput.value);
     const goal = goalInput.value;
+    
+     // Check if the user filled everything in
+    if (caloriesInput.value === "" || goal === "") {
+        results.innerHTML = "<p>Please enter your calories and choose a goal.</p>";
+        return;
+    }
 
 }
