@@ -118,6 +118,27 @@ nav a.active::after {
     border-radius:20px;
 }
 
+/* hero section */
+
+.hero {
+    width:90%;
+    max-width:1000px;
+    margin:60px auto 40px;
+}
+
+.hero-content {
+    padding:45px 30px;
+    text-align:center;
+}
+
+.hero p {
+    max-width:800px;
+    margin:20px auto;
+    font-size:25px;
+    line-height:1.5;
+}
+
+
 
 
 
