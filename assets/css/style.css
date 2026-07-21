@@ -253,6 +253,43 @@ nav a.active::after {
     font-style:italic;
 }
 
+/* workout page */
+
+.workout-container {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+    padding:20px;
+}
+
+.workout-card {
+    width:300px;
+    overflow:hidden;
+    text-align:center;
+    transition:.3s ease;
+}
+
+.workout-card:hover {
+    transform:translateY(-8px);
+}
+
+.workout-card img {
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+
+.workout-card h3 {
+    color:#bee21f;
+    padding:15px;
+    text-transform:uppercase;
+}
+
+.workout-card p {
+    padding:0 15px 20px;
+    font-size:18px;
+}
 
 
 
