@@ -507,4 +507,103 @@ footer .soci-text {
     opacity:.8;
 }
 
+/*responsive design */
+
+/* mobile */
+
+@media(max-width:480px){
+    #logo {
+        width:160px;
+    }
+
+    .hero-content {
+        padding:30px 15px;
+    }
+
+    h1 {
+        font-size:35px;
+    }
+
+    h2 {
+        font-size:30px;
+    }
+
+    .hero p {
+        font-size:18px;
+    }
+
+    .goal-btn, .cta-btn {
+        width:100%;
+        margin:8px 0;
+
+
+    }
+
+    .buttons button {
+        width:100%;
+    }
+
+    .box {
+        width:95%;
+        padding:20px;
+    }
+
+
+
+    .hrs,.min,.sec, .ms {
+        width:30px;
+        font-size:22px;
+    }
+
+    footer .ft-banner {
+        font-size:60px;
+    }
+}
+
+
+
+/*tablet*/
+
+@media(max-width:768px){
+    nav ul {
+        flex-direction:column;
+        width:90%;
+    }
+
+    nav a {
+        font-size:18px;
+    }
+
+    .hero {
+        margin-top:30px;
+    }
+
+    .hero p {
+        font-size:20px;
+    }
+
+    .about p {
+        font-size:20px;
+    }
+
+    .features {
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .feature-card {
+        width:100%;
+        max-width:350px;
+    }
+
+    .goal-selector h2 {
+        font-size:35px;
+    }
+
+    .quote blockquote {
+        font-size:25px;
+    }
+}
+
+
 
