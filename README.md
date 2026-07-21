@@ -372,7 +372,22 @@ Development testing was carried out throughout the implementation stage of the p
 | ---- | ------------- | ------------ | ------------------ |
 | Workout (Layout) | ![bug-workout-layout](assets/images/testing/workout-section-responsiveness-bug.png) | ![bug-fixed-workout](assets/images/testing/workout-fixed-section.png) | In workout.html, lines 51–55 were missing a closing div tag, which caused the page layout to display incorrectly. A closing div tag was added on line 56 to ensure the HTML structure was properly nested and to resolve the layout issue. This modification improves the page’s responsiveness and maintains the intended visual design across different screen sizes. |
 | Workout (Stopwatch) | ![bug-workout-stopwatch](assets/images/testing/stopwatch-bug.png) | ![bug-fixed-workout](assets/images/testing/stopwatch-bug-fixed.png) | In style.css, line 302 originally used flex-direction: column-reverse;, which caused the content within the stopwatch component to be displayed in the wrong order. As a result, the lap timings appeared above the timer instead of below it. This was amended to flex-direction: column; to reflect the intended design. The modification ensures that the timer is displayed first, followed by the lap timings, improving both the visual layout and the user experience. |
-| Nutrition | ![bug-nutrition](assets/images/testing/nutrition-card-bug.png) | ![bug-fixed-nutrition](assets/images/testing/nutrition-card-fixed.png) | In nutrition.html, the Bootstrap grid class was incorrectly written as coll-md-3 instead of col-md-3. This incorrect class prevented the Bootstrap grid system from applying correctly, causing the nutrition cards to be positioned incorrectly on the page. The class was amended to col-md-3 to restore the correct responsive column layout and ensure the cards display as intended across different screen sizes. |
+| Nutrition | ![bug-nutrition](assets/images/testing/nutrition-card-bug.png) | ![bug-fixed-nutrition](assets/images/testing/nutrition-card-fixed.png) | In nutrition.html, the Bootstrap grid class was incorrectly written as coll-md-3 instead of col-md-3. This incorrect class prevented the Bootstrap grid system from applying correctly, causing the nutrition cards to be positioned incorrectly on the page. The class was amended to col-md-3 to restore the correct responsive column layout and ensure the cards display as intended across different screen sizes. | 
+
+**Issue: Footer styling not applied correctly**
+
+Problem: 
+
+During testing, the footer design was not displaying as intended because the required CSS class was missing from the footer HTML element. This prevented the correct styling rules from being applied.
+
+![bug-footer](assets/images/testing/footer-bug.png)
+
+Solution: 
+
+The missing class (social network) was added to the footer HTML element, allowing the CSS styling to target the footer correctly. The footer layout and design were then updated and retested to ensure consistency across all pages and screen sizes.
+
+![fix-footer](assets/images/testing/footer-fix.png)
+
 
 **Final Bugs and Justification**
 
