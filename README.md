@@ -313,6 +313,17 @@ These animations and effects will improve both the functionality and visual appe
 Both manual and automated testing methods were used throughout the development and will be used during deployment of FitForge App to ensure the website operates correctly and provides a postive user experience.
 
 ### Development Testing Table
+Development testing was carried out throughout the implementation stage of the project. Features were tested when being developed to ensure they functioned correctly before progressing on to the deployment stage. This interative approach allowed issues to be identified and resolved early in the development process. The website was tested to ensure:
+ 
+ - Navigation is simple and intuitive.
+ - Buttons are clearly labelled.
+ - Content is easy to read across all devices.
+ - Sections are appropriately spaced for accessibility.
+ - Interactive features that provide clear feedback to users.
+
+
+
+
 | Feature Tested | Testing Procedure | Expected Results | Actual Result | Pass/Fail | Solution |
 | -------------- | ------------------| ---------------- | ------------- |---------- | -------- |
 | Navigation Menu | Click navigation links | Nav-links should navigate to the correct sections | Workout Navigation is broken | **FAIL** | change the navigation link from workouts.html to workout.html (spelling error)
@@ -324,7 +335,9 @@ Both manual and automated testing methods were used throughout the development a
 | CTA | Click to see if CTA buttons works  | All CTA buttons should operate as intended. | All external and internal links are directed correctly as it should. | **PASS** |  N/a |
 
 ---
-#### Navigation Menu Fix (EVIDENCE)
+#### Bugs and Fixes
+
+**Navigation Menu Fix (EVIDENCE)**
 
 **Before fixing**
 
@@ -335,13 +348,16 @@ Both manual and automated testing methods were used throughout the development a
 ![fixed-navbar-workout](assets/images/testing/navbar-workout-fixed.png)
 
 ---
-#### Responsive issue fix (EVIDENCE)
+**Responsive issue fix (EVIDENCE)**
 | Page | Before Fixing | After Fixing | Code Modifications |
 | ---- | ------------- | ------------ | ------------------ |
 | Workout (Layout) | ![bug-workout-layout](assets/images/testing/workout-section-responsiveness-bug.png) | ![bug-fixed-workout](assets/images/testing/workout-fixed-section.png) | In workout.html, lines 51–55 were missing a closing div tag, which caused the page layout to display incorrectly. A closing div tag was added on line 56 to ensure the HTML structure was properly nested and to resolve the layout issue. This modification improves the page’s responsiveness and maintains the intended visual design across different screen sizes. |
 | Workout (Stopwatch) | ![bug-workout-stopwatch](assets/images/testing/stopwatch-bug.png) | ![bug-fixed-workout](assets/images/testing/stopwatch-bug-fixed.png) | In style.css, line 302 originally used flex-direction: column-reverse;, which caused the content within the stopwatch component to be displayed in the wrong order. As a result, the lap timings appeared above the timer instead of below it. This was amended to flex-direction: column; to reflect the intended design. The modification ensures that the timer is displayed first, followed by the lap timings, improving both the visual layout and the user experience. |
 | Nutrition | ![bug-nutrition](assets/images/testing/nutrition-card-bug.png) | ![bug-fixed-nutrition](assets/images/testing/nutrition-card-fixed.png) | In nutrition.html, the Bootstrap grid class was incorrectly written as coll-md-3 instead of col-md-3. This incorrect class prevented the Bootstrap grid system from applying correctly, causing the nutrition cards to be positioned incorrectly on the page. The class was amended to col-md-3 to restore the correct responsive column layout and ensure the cards display as intended across different screen sizes. |
 
+**Final Bugs and Justification**
+
+All identified bugs were fixed to improve the overall functionallity,layout and user experience of the website. Each issue was reviewed and traced back to its root cause such as incorrect html structure, incorrect css properties or typing errors within bootstrap classes. The neccessary corrections were applied to ensure that the page elements displayed in the intended order, responsive layouts worked correctly and components alligned correctly across a variety of screen sizes. After, making these changes the website was tested again to confirm that the fixes were resolved and there were no remaining bugs affecting the user experience. 
 
 ---
 ## References
