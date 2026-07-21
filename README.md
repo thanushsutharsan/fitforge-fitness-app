@@ -307,6 +307,24 @@ Call-to-action buttons will initially use the primary lime green colour and will
 
 These animations and effects will improve both the functionality and visual appeal of FitForge whilst remaining simple, consistent and easy for users to understand.
 
+## Testing
+### Principles of Automated and Manual Testing
+
+Both manual and automated testing methods were used throughout the development and will be used during deployment of FitForge App to ensure the website operates correctly and provides a postive user experience.
+
+### Development Testing Table
+| Feature Tested | Testing Procedure | Expected Results | Actual Result | Pass/Fail | Solution |
+| -------------- | ------------------| ---------------- | ------------- |---------- | -------- |
+| Navigation Menu | Click navigation links | Nav-links should navigate to the correct sections | Workout Navigation is broken | **FAIL** | change the navigation link from workouts.html to workout.html (spelling error)
+| Goal Selector | Select different fitness goals | Selected goal should display correctly | 
+| Workout Stopwatch | Test start/stop/lap/reset buttons | Stopwatch should perform each functions correctly |
+| Macronutrient Calculator | Enter user details | Calculator should return correct macronutrient values |
+| Images | Check if all images are visible | Images should load correctly without broken links |
+| Responsive styling | Test if layout is responsive to all sizes | Website should adjust correctly when the page size changes |
+| CTA | Click to see if CTA buttons works  | All CTA buttons should operate as intended. |
+
+
+
 ---
 ## References
 
