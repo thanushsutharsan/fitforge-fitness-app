@@ -415,7 +415,7 @@ nav a.active::after {
 
 /* cta video button */
 
-.cta-view-vid a {
+.cta-view-vid {
     display:inline-block;
     padding:12px 30px;
     background:#bee21f;
@@ -427,12 +427,10 @@ nav a.active::after {
     transition:.3s ease;
 }
 
-.cta-view-vid a:hover {
-    background:white;
-    transform:translateY(-3px);
+.cta-view-vid:hover {
+    background: #f1eaea;
 }
 
-/* table style */
 
 .table {
     background:white;
