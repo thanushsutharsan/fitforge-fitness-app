@@ -372,3 +372,43 @@ nav a.active::after {
     border-bottom:1px solid rgba(255,255,255,.2);
 }
 
+/* nutrition page */
+
+.nutrition-page {
+    min-height:100vh;
+}
+
+.calculator {
+    width:90%;
+    max-width:900px;
+    margin:auto;
+    padding:40px 20px;
+}
+
+.calculator h1 {
+    margin-bottom:30px;
+}
+
+.calculator label {
+    font-size:20px;
+}
+
+.calculator input,.calculator select {
+    width:100%;
+    padding:12px;
+    border-radius:8px;
+    border:none;
+}
+
+#calculate-btn {
+    width:100%;
+    margin-top:20px;
+}
+
+.card:hover {
+    transform:translateY(-6px);
+}
+
+.card-body {
+    padding:25px;
+}
