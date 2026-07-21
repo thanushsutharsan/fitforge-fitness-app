@@ -25,7 +25,7 @@ This website is designed to support users who want to improve their fitness and 
    - Goal selector
    - Workout stopwatch
    - Macronutrient calculator
-   
+
 ## How to View the Project
 
 - The site is now live for preview.
@@ -342,11 +342,39 @@ Call-to-action buttons will initially use the primary lime green colour and will
 These animations and effects will improve both the functionality and visual appeal of FitForge whilst remaining simple, consistent and easy for users to understand.
 
 ## Testing
-### Principles of Automated and Manual Testing
 
 Both manual and automated testing methods were used throughout the development and will be used during deployment of FitForge App to ensure the website operates correctly and provides a postive user experience.
 
-### Development Testing Table
+### Manual Testing
+
+Manual testing was used to assess the functionality, usability and responsiveness of the website by interacting with each feature as an end user. This method was particularly useful for testing navigation links, buttons, form validation and interactive JavaScript components, as it allowed real user interactions to be evaluated throughout development and after deployment.
+
+Manual testing was carried out on:
+
+- The navigation menu across all pages.
+- The fitness goal selector on the homepage.
+- The workout timer’s start, stop and reset functionality.
+- The macronutrient calculator’s calculations and input validation.
+- External links and call-to-action buttons.
+- Responsive layouts across different screen sizes.
+
+Advantages of Manual Testing
+
+- Allows user experience and usability issues to be identified more easily.
+- Provides immediate feedback on how interactive features behave in real-world scenarios.
+- Effective for testing visual elements such as layouts, buttons and responsive designs.
+- Useful for identifying unexpected issues that automated testing tools may not detect.
+
+Disadvantages of Manual Testing
+
+- Can be time-consuming when repeatedly testing multiple features and pages.
+- Is more susceptible to human error when compared with automated testing methods.
+- Requires repeated testing whenever changes are made to the website.
+- Is less efficient for large-scale or repetitive testing procedures.
+
+Manual testing was particularly appropriate for FitForge because many of its features rely on user interaction. Testing the navigation menu, goal selector, workout timer and macronutrient calculator manually ensured that users could interact with the website as intended across a range of devices and screen sizes.
+
+#### Development Testing Table
 Development testing was carried out throughout the implementation stage of the project. Features were tested when being developed to ensure they functioned correctly before progressing on to the deployment stage. This interative approach allowed issues to be identified and resolved early in the development process. The website was tested to ensure:
  
  - Navigation is simple and intuitive.
@@ -369,7 +397,47 @@ Development testing was carried out throughout the implementation stage of the p
 | CTA | Click to see if CTA buttons works  | All CTA buttons should operate as intended. | All external and internal links are directed correctly as it should. | **PASS** |  N/a |
 
 ---
-#### Bugs and Fixes
+### Automated Testing
+
+Automated testing tools were used to validate the quality and performance of the code. These tools helped identify any errors relating to accessibility, responsiveness and code validity. Automated testing enables developers to quickly assess whether a website meets web standards and performs consistently across different environments.
+
+Automated testing included:
+
+- HTML validation.
+- CSS validation.
+- JavaScript validation using JSLint.
+- Lighthouse testing for accessibility, performance, best practices and SEO.
+- Browser developer tools to test responsive layouts.
+
+Advantages of Automated Testing
+
+- Provides fast and consistent results when validating code and website performance.
+- Helps identify errors that may not be immediately visible during manual testing.
+- Improves code quality by ensuring compliance with recognised web standards.
+- Can efficiently assess accessibility, performance and best practices across multiple pages.
+- Reduces the time required for repetitive testing procedures.
+
+Disadvantages of Automated Testing
+
+- Cannot fully evaluate the overall user experience or usability of a website.
+- May fail to identify visual or design issues that require human judgement.
+- Some tools can produce warnings that require manual interpretation before changes are made.
+- Automated testing alone cannot confirm that all interactive features behave as users would expect.
+
+Automated testing was particularly appropriate for FitForge as it allowed the website’s code quality, accessibility, performance and responsiveness to be assessed efficiently throughout development and prior to deployment. These tools complemented manual testing by providing objective feedback on areas that could be improved.
+
+#### HTML Validation
+
+#### CSS Validation
+
+#### JS Validation (JSLint)
+
+#### Lighthouse Testing
+
+#### Responsiveness Testing
+
+
+### Bugs and Fixes
 
 **Navigation Menu Fix (EVIDENCE)**
 
