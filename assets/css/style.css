@@ -450,3 +450,61 @@ nav a.active::after {
     padding:1rem;
 }
 
+/*footer*/
+
+footer {
+    margin-top:auto;
+    padding:25px 15px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    text-align:center;
+    background:#bee21f;
+    color:#0f0707;
+}
+
+
+
+footer .ft-banner {
+    width:100%;
+    text-align:center;
+    font-size:clamp(60px,12vw,160px);
+    font-weight:600;
+    line-height:1;
+}
+
+
+
+footer .soci-text {
+    font-size:clamp(18px,4vw,30px);
+    text-transform:uppercase;
+    font-weight:600;
+
+
+}
+
+#social-networks {
+    width:100%;
+    padding:15px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:25px;
+    background:#f1eaea;
+    list-style:none;
+}
+
+#social-networks a {
+    color:#0f0707;
+    font-size:25px;
+    transition:.3s ease;
+}
+
+#social-networks a:hover {
+    transform:scale(1.15);
+    opacity:.8;
+}
+
+
