@@ -11,7 +11,7 @@ This website is designed to support users who want to improve their fitness and 
  - Git/Github
  - VsCode
 
-
+## Version Control
 ## How to Run the Project Locally
 
 1. Clone the repository from GitHub.
@@ -97,6 +97,8 @@ The webiste has been designed with clean mordern and user friendly layout to ens
 - As a Frequent Visitor, I want to revisit the website before each gym session so I can plan my workout.
 - As a Frequent Visitor, I want to re-access the stopwatch to time my daily sessions.
 - As a Frequent Visitor, I want to revisit the meal examples provided so I can make healthier food choices throughout the day to support my training journey.
+
+### User Studies (Evidence section)
 
 ### Research
 To make sure my website was designed around the needs of real users, I followed the User-Centred Design (UCD) approach by carrying out research before I started building the website. Instead of guessing what people might struggle with, I watched Instagram Reels from real people sharing their fitness journeys and experiences. I also looked through the comments to see what other people were saying and what problems they were facing.
@@ -325,6 +327,8 @@ Arial was selected as the secondary font because it is clean, professional and h
 
 Sans-serif has been included as the fallback font family because it is universally supported across modern browsers and operating systems. If either Teko or Arial cannot be loaded, the website will still display clear and accessible text without affecting the layout or functionality of the pages. Including a fallback font improves accessibility, responsiveness and compatibility, ensuring that all users receive a consistent experience regardless of the device or browser they are using.
 
+#### Typography (Changes during development)
+
 #### Images and visuals 
 
 I will use high-quality fitness and nutrition images throughout my website to make the content more engaging and motivating for users. The visuals help users quickly understand the purpose of each section, such as workouts, healthy eating and fitness goals, without relying only on text.
@@ -436,8 +440,9 @@ Automated testing was particularly appropriate for FitForge as it allowed the we
 
 #### Responsiveness Testing
 
+### Deployment Testing
 
-### Bugs and Fixes
+## Bugs and Fixes
 
 **Navigation Menu Fix (EVIDENCE)**
 
@@ -476,6 +481,19 @@ The missing class (social network) was added to the footer HTML element, allowin
 
 All identified bugs were fixed to improve the overall functionallity,layout and user experience of the website. Each issue was reviewed and traced back to its root cause such as incorrect html structure, incorrect css properties or typing errors within bootstrap classes. The neccessary corrections were applied to ensure that the page elements displayed in the intended order, responsive layouts worked correctly and components alligned correctly across a variety of screen sizes. After, making these changes the website was tested again to confirm that the fixes were resolved and there were no remaining bugs affecting the user experience. 
 
+
+## Final Project Screenshots
+### Homepage
+
+### Workout
+
+### Nutrition
+
+## Project Structure
+
+## External Resources
+
+## Credits
 ---
 ## References
 
