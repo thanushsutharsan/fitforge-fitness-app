@@ -291,7 +291,84 @@ nav a.active::after {
     font-size:18px;
 }
 
+/* workout stopwtach section */
+
+.box {
+    width: 90%;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    display:flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    user-select: none;
+}
+
+.frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+    min-height: 70px;
+    font: "Orbiton", sans-serif;
+}
+
+.hrs,.min,.sec,.ms,.colon {
+    color: white;
+    text-align: center;
+}
+
+.hrs,.min,.sec,.ms {
+    width: 35px;
+    font-size: 28px;
+    font-weight: bold;
+    font-variant-numeric:tabular-nums;
+}
+
+.colon {
+    font-size: 25px;
+}
+
+/* workout stopwatch buttons */
+
+.buttons {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:10px;
+    margin-top:20px;
+}
+
+.st {
+    background:#bee21f !important;
+}
+
+.rs {
+    background:#cce83d !important;
+}
+
+.stp {
+    background:#edf467 !important;
+}
 
 
 
+
+/*laps*/
+
+.laps {
+    width:100%;
+    max-height:150px;
+    margin-top:20px;
+    overflow-y:auto;
+    text-align:center;
+}
+
+/*lap entries line*/
+
+.lap {
+    padding:8px;
+    font-size:16px;
+    border-bottom:1px solid rgba(255,255,255,.2);
+}
 
