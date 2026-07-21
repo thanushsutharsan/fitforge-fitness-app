@@ -214,6 +214,29 @@ nav a.active::after {
     line-height:1.4;
 }
 
+/* goal selector section */
+
+.goal-selector {
+    width:90%;
+    max-width:1000px;
+    margin:40px auto;
+    padding:35px 25px;
+    text-align:center;
+}
+
+.goal-selector p {
+    font-size:22px;
+}
+
+.goal-btn {
+    margin:10px;
+}
+
+#result {
+    margin-top:25px;
+    padding:20px;
+    font-size:22px;
+}
 
 
 
