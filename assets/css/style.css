@@ -412,3 +412,22 @@ nav a.active::after {
 .card-body {
     padding:25px;
 }
+
+/* cta video button */
+
+.cta-view-vid a {
+    display:inline-block;
+    padding:12px 30px;
+    background:#bee21f;
+    color:black;
+    border-radius:8px;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-weight:bold;
+    transition:.3s ease;
+}
+
+.cta-view-vid a:hover {
+    background:white;
+    transform:translateY(-3px);
+}
