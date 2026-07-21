@@ -320,7 +320,7 @@ Both manual and automated testing methods were used throughout the development a
 | Workout Stopwatch | Test start/stop/lap/reset buttons | Stopwatch should perform each functions correctly | All stopwatch functions worked as expected | **PASS** |  N/a |
 | Macronutrient Calculator | Enter user details | Calculator should return correct macronutrient values | Calculator displayed accurate results and rejected invalid inputs | **PASS** |  N/a |
 | Images | Check if all images are visible | Images should load correctly without broken links | All images displayed correctly | **PASS** |  N/a |
-| Responsive styling | Test if layout is responsive to all sizes | Website should adjust correctly when the page size changes |
+| Responsive styling | Test if layout is responsive to all sizes | Website should adjust correctly when the page size changes | The layout was all over the place and not as intended mainly nutrtion and workout cards and footer | **FAIL** | add  missing div to workout to correct the footer and card issue for workout section also in css change the flex-direction and the correct spelling from coll to col in nutrtion |
 | CTA | Click to see if CTA buttons works  | All CTA buttons should operate as intended. | All external and internal links are directed correctly as it should. | **PASS** |  N/a |
 
 ---
