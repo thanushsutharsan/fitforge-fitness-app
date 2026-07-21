@@ -316,12 +316,12 @@ Both manual and automated testing methods were used throughout the development a
 | Feature Tested | Testing Procedure | Expected Results | Actual Result | Pass/Fail | Solution |
 | -------------- | ------------------| ---------------- | ------------- |---------- | -------- |
 | Navigation Menu | Click navigation links | Nav-links should navigate to the correct sections | Workout Navigation is broken | **FAIL** | change the navigation link from workouts.html to workout.html (spelling error)
-| Goal Selector | Select different fitness goals | Selected goal should display correctly | 
-| Workout Stopwatch | Test start/stop/lap/reset buttons | Stopwatch should perform each functions correctly |
-| Macronutrient Calculator | Enter user details | Calculator should return correct macronutrient values |
-| Images | Check if all images are visible | Images should load correctly without broken links |
+| Goal Selector | Select different fitness goals | Selected goal should display correctly | Goal was successfully displayed | **PASS** |  N/a |
+| Workout Stopwatch | Test start/stop/lap/reset buttons | Stopwatch should perform each functions correctly | All stopwatch functions worked as expected | **PASS** |  N/a |
+| Macronutrient Calculator | Enter user details | Calculator should return correct macronutrient values | Calculator displayed accurate results and rejected invalid inputs | **PASS** |  N/a |
+| Images | Check if all images are visible | Images should load correctly without broken links | All images displayed correctly | **PASS** |  N/a |
 | Responsive styling | Test if layout is responsive to all sizes | Website should adjust correctly when the page size changes |
-| CTA | Click to see if CTA buttons works  | All CTA buttons should operate as intended. |
+| CTA | Click to see if CTA buttons works  | All CTA buttons should operate as intended. | All external and internal links are directed correctly as it should. | **PASS** |  N/a |
 
 ---
 #### Navigation Menu Fix (EVIDENCE)
