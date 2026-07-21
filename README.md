@@ -335,6 +335,15 @@ Both manual and automated testing methods were used throughout the development a
 ![fixed-navbar-workout](assets/images/testing/navbar-workout-fixed.png)
 
 ---
+#### Responsive issue fix (EVIDENCE)
+| Page | Before Fixing | After Fixing | Code Modifications |
+| ---- | ------------- | ------------ | ------------------ |
+| Workout (Layout) | ![bug-workout-layout](assets/images/testing/workout-section-responsiveness-bug.png) | ![bug-fixed-workout](assets/images/testing/workout-fixed-section.png) | In workout.html, lines 51–55 were missing a closing div tag, which caused the page layout to display incorrectly. A closing div tag was added on line 56 to ensure the HTML structure was properly nested and to resolve the layout issue. This modification improves the page’s responsiveness and maintains the intended visual design across different screen sizes. |
+| Workout (Stopwatch) | ![bug-workout-stopwatch](assets/images/testing/stopwatch-bug.png) | ![bug-fixed-workout](assets/images/testing/stopwatch-bug-fixed.png) | In style.css, line 302 originally used flex-direction: column-reverse;, which caused the content within the stopwatch component to be displayed in the wrong order. As a result, the lap timings appeared above the timer instead of below it. This was amended to flex-direction: column; to reflect the intended design. The modification ensures that the timer is displayed first, followed by the lap timings, improving both the visual layout and the user experience. |
+| Nutrition | ![bug-nutrition](assets/images/testing/nutrition-card-bug.png) | ![bug-fixed-nutrition](assets/images/testing/nutrition-card-fixed.png) | In nutrition.html, the Bootstrap grid class was incorrectly written as coll-md-3 instead of col-md-3. This incorrect class prevented the Bootstrap grid system from applying correctly, causing the nutrition cards to be positioned incorrectly on the page. The class was amended to col-md-3 to restore the correct responsive column layout and ensure the cards display as intended across different screen sizes. |
+
+
+---
 ## References
 
 1. Akers, A., Barton, J., Cossey, R., Gainsford, P., Griffin, M. and Micklewright, D. (2012) ‘Visual Color Perception in Green Exercise: Positive Effects on Mood and Perceived Exertion’, Environmental Science & Technology, 46(16), pp. 8661–8666. Available at: https://pubs.acs.org/doi/10.1021/es301685g
