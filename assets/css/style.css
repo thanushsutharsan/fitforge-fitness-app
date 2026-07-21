@@ -431,3 +431,22 @@ nav a.active::after {
     background:white;
     transform:translateY(-3px);
 }
+
+/* table style */
+
+.table {
+    background:white;
+    border-radius:12px;
+    overflow:hidden;
+}
+
+.table th {
+    background:#212529;
+    color:white;
+    text-transform:uppercase;
+}
+
+.table td,.table th {
+    padding:1rem;
+}
+
