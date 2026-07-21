@@ -323,7 +323,16 @@ Both manual and automated testing methods were used throughout the development a
 | Responsive styling | Test if layout is responsive to all sizes | Website should adjust correctly when the page size changes |
 | CTA | Click to see if CTA buttons works  | All CTA buttons should operate as intended. |
 
+---
+#### Navigation Menu Fix (EVIDENCE)
 
+**Before fixing**
+
+![error-navbar-workout](assets/images/testing/navbar-workout-error.png)
+
+**After fixing**
+
+![fixed-navbar-workout](assets/images/testing/navbar-workout-fixed.png)
 
 ---
 ## References
