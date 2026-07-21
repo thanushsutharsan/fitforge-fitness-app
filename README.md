@@ -11,6 +11,21 @@ This website is designed to support users who want to improve their fitness and 
  - Git/Github
  - VsCode
 
+
+## How to Run the Project Locally
+
+1. Clone the repository from GitHub.
+2. Open the project folder in Visual Studio Code.
+3. Open `index.html` using Live Server.
+4. Navigate through the website pages:
+   - Homepage
+   - Workout page
+   - Nutrition page
+5. Test all interactive features:
+   - Goal selector
+   - Workout stopwatch
+   - Macronutrient calculator
+   
 ## How to View the Project
 
 - The site is now live for preview.
