@@ -11,6 +11,25 @@ This website is designed to support users who want to improve their fitness and 
  - Git/Github
  - VsCode
 
+## How to View the Project
+
+- The site is now live for preview.
+  - [View the deployed website HERE](https://thanushsutharsan.github.io/fitforge-fitness-app/)
+
+### Deployment Procedure
+
+This project was deployed using GitHub Pages.
+Deployment steps:
+
+1. Ensure the final version of the project was committed and pushed to the GitHub repository.
+2. Open the repository settings on GitHub.
+3. Navigate to the "Pages" section.
+4. Select the deployment source:
+   - Branch: Main
+   - Folder: Root (/)
+5. Save the changes to generate the live website URL.
+6. Open the deployed website and test that all pages, links, images and interactive features work correctly.
+
 ## User Experience Design (UXD) 
 
 ### Overview
