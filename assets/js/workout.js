@@ -9,6 +9,18 @@ const secBox = document.querySelector('.sec');
 const msBox = document.querySelector('.ms');
 
 const lapContainer = document.querySelector('.laps');
+if (
+    btnStart &&
+    btnReset &&
+    btnLap &&
+    btnStop &&
+    hrsBox &&
+    minBox &&
+    secBox &&
+    msBox &&
+    lapContainer
+){
+
 let hrs = 0;
 let min = 0;
 let sec = 0;
@@ -86,4 +98,5 @@ function updateDisplay() {
   minBox.innerText = format(min);
   secBox.innerText = format(sec);
   msBox.innerText = format(ms);
+}
 }
