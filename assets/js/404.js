@@ -1,6 +1,6 @@
 // 404 page automatic redirect countdown
 
-let seconds = 5;
+let seconds = 10;
 
 const countdown = document.getElementById("countdown");
 
