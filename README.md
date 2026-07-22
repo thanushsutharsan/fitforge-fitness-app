@@ -12,6 +12,22 @@ This website is designed to support users who want to improve their fitness and 
  - VsCode
 
 ## Version Control
+Git and Github were used throughout the development of FitForge Fitness App to track changes, manage updates and maintain a clear development history.
+Commit messages followed a consistent naming convention using prefixes such as:
+
+- feat: Used when adding new features or functionality to the application.
+    - Example: Adding the macronutrient calculator, workout stopwatch, or goal selector.
+- fix: Used when correcting bugs, errors, or issues within the code.
+    - Example: Fixing responsive layout issues, incorrect class names, or JavaScript errors.
+- docs: Used for changes made to documentation files such as the README.
+    - Example: Adding testing descriptions, updating project information, and improving documentation structure.
+- style: Used for changes related to the appearance and formatting of the application.
+    - Example: Updating CSS styling, improving layouts, or adjusting design elements.
+- chore: Used for general maintenance tasks that do not directly affect functionality.
+    - Example: Updating project organisation, preparing files, or making minor configuration changes.
+
+Using these commit conventions helped keep the project history organised, making it easier to identify changes and track the development process.
+
 ## How to Run the Project Locally
 
 1. Clone the repository from GitHub.
