@@ -115,6 +115,116 @@ The webiste has been designed with clean mordern and user friendly layout to ens
 - As a Frequent Visitor, I want to revisit the meal examples provided so I can make healthier food choices throughout the day to support my training journey.
 
 ### User Studies (Evidence section)
+#### 1. Goal Selections/ CTA Navigations
+
+Screenshot:
+![goal-selector-btn](assets/images/testing/user-studies-evidence/goal-selector.png)
+
+![athelete-btn](assets/images/testing/user-studies-evidence/athlete-btn.png)
+
+![weightloss-btn](assets/images/testing/user-studies-evidence/weightloss-btn.png)
+
+![start-journey-btn](assets/images/testing/user-studies-evidence/start-journey-btn.png)
+
+Supports:
+
+People Looking to Lose Weight:
+
+- As a First Time Visitor, I want to know which guidance to follow by using the CTA buttons of lose weight and athlete training.
+
+Athlete or Sports Users
+
+- As a First Time Visitor, I want to use the CTA button (Start Your Journey) on the homepage to access the workout page seamlessly.
+
+Evidence description:
+The homepage provides clear CTA buttons that allow first-time visitors to choose their fitness goal and navigate to relevant fitness resources.
+
+#### 2. Workout Cards / Muscle Group Selection
+
+Screenshot:
+
+![workout-cards](assets/images/testing/user-studies-evidence/workout-cards.png)
+
+
+Supports:
+
+People Looking to Lose Weight:
+
+- As a First Time Visitor, I want to explore different workouts so I can exercise different parts of my body.
+- As a Returning Visitor, I want to explore different muscle group workouts to add variety to my daily exercise routine.
+
+Athlete or Sports Users:
+
+- As a First Time Visitor, I want to find workouts for specific muscle groups so I can tailor my training sessions.
+- As a Returning Visitor, I want to improve my strength and training routine by exploring different muscle group workouts.
+- As a Frequent Visitor, I want to revisit the website before each gym session so I can plan my workout.
+
+Evidence description:
+The workout cards allow users to explore different exercises targeting specific muscle groups, supporting personalised workout planning.
+
+
+#### 3. Workout Stopwatch
+
+Screenshot:
+
+![workout-stopwatch](assets/images/testing/user-studies-evidence/workout-stopwatch.png)
+
+Supports:
+People Looking to Lose Weight:
+
+- As a Returning Visitor, I want to use a stopwatch to time my workouts more accurately.
+- As a Frequent Visitor, I want to use a stopwatch during my workout session.
+
+Athlete or Sports Users
+- As a Returning Visitor, I want to use the stopwatch to accurately time my sets.
+- As a Frequent Visitor, I want to re-access the stopwatch to time my daily sessions.
+
+Evidence description:
+The stopwatch feature allows returning users and athletes to accurately measure workout duration and training intervals.
+
+#### 4. Macronutrient Calculator
+
+Screenshot:
+
+![overall-calculator](assets/images/testing/user-studies-evidence/overall-calculator.png)
+
+![calculator-options](assets/images/testing/user-studies-evidence/calculator-options.png)
+
+![calculator-result](assets/images/testing/user-studies-evidence/calculator-result.png)
+
+Supports:
+People Looking to Lose Weight:
+
+- As a First Time Visitor, I want to use the Macronutrient Calculator so I can understand my nutritional requirements.
+- As a Frequent Visitor, I want to regularly use the Macronutrient Calculator to support my fitness goals.
+
+Athlete or Sports Users:
+
+- As a First Time Visitor, I want to use Macronutrient Calculator so I can understand my nutritional needs for muscle growth and recovery.
+
+Evidence description:
+The macronutrient calculator provides personalised nutritional information based on user inputs, helping users support their fitness goals.
+
+
+
+#### 5. Nutrition Tips / Resources
+Screenshot:
+
+![nutrition-cards](assets/images/testing/user-studies-evidence/nutrition-cards.png)
+
+Supports:
+People Looking to Lose Weight:
+
+- As a Returning Visitor, I want to read nutrition tips so I can make healthier food choices.
+- As a Frequent Visitor, I want to access workout and nutrition resources to maintain a healthy lifestyle.
+
+Athlete or Sports Users:
+
+- As a Returning Visitor, I want to read nutritional facts and tips so I can ensure peak performance without weak recovery.
+- As a Frequent Visitor, I want to revisit meal examples provided so I can make healthier food choices throughout the day.
+
+Evidence description:
+The nutrition section provides users with educational resources covering healthy eating, recovery and meal planning.
 
 ### Research
 To make sure my website was designed around the needs of real users, I followed the User-Centred Design (UCD) approach by carrying out research before I started building the website. Instead of guessing what people might struggle with, I watched Instagram Reels from real people sharing their fitness journeys and experiences. I also looked through the comments to see what other people were saying and what problems they were facing.
