@@ -570,6 +570,16 @@ Automated testing was particularly appropriate for FitForge as it allowed the we
 
 #### HTML Validation
 
+HTML validation was completed using the W3C Markup Validation Service. The final version of the website passed with no errors.
+
+![Home HTML Validation](assets/images/testing/html-home-validation.png)
+
+![Workout HTML Validation](assets/images/testing/html-workout-validation.png)
+
+![Nutrition HTML Validation](assets/images/testing/html-nutrition-validation.png)
+
+![404 HTML Validation](assets/images/testing/html-404-validation.png)
+
 #### CSS Validation
 
 #### JS Validation (JSLint)
