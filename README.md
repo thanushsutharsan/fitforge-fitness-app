@@ -300,6 +300,12 @@ The key goal of the website is to encourage users to improve thier fitness and n
 - Introduce Progress tracking so users can monitor progress overtime.
 
 ---
+
+#### Additional Feature Added: Custom 404 Error Page
+
+During the development process, a custom 404 error page was added after the initial planning stage. This feature was not included in the original user stories or planning documentation; however, it was implemented to improve the overall user experience. The 404 page provides users with clear feedback when they access an unavailable page and includes an automatic redirect countdown that guides users back to the homepage after a set period of time. This prevents users from becoming stuck and ensures smoother navigation throughout the website.
+
+---
 ### III. Structure
 
 #### Information Architecture & Logical Organisation of Features
