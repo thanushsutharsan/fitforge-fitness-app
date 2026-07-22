@@ -308,9 +308,10 @@ nav a.active::after {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:5px;
+    gap: 5px;
     min-height: 70px;
-    font: "Orbiton", sans-serif;
+    font-size: 20px;
+    font-family: "Orbitron", sans-serif;
 }
 
 .hrs,.min,.sec,.ms,.colon {
