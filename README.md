@@ -453,6 +453,19 @@ Automated testing was particularly appropriate for FitForge as it allowed the we
 #### JS Validation (JSLint)
 
 #### Lighthouse Testing
+The website was tested using Google Lighthouse through Chrome DevTools to evaluate performance, accessibility, best practices, and SEO. The results scored strong, demonstrating that the website was optimised for usability, accessibility, and efficient loading. The screenshots below provides evidence of the Lighthouse testing results.
+
+**HOME SECTION**
+
+![Screenshot of Home Accessibility Test](assets/images/testing/access-test-home.png)
+
+**WORKOUT SECTION**
+
+![Screenshot of Workout Accessibility Test](assets/images/testing/access-test-workout.png)
+
+**NUTRITION SECTION**
+
+![Screenshot of Nutrition Accessibility Test](assets/images/testing/access-test-nutrition.png)
 
 #### Responsiveness Testing
 
