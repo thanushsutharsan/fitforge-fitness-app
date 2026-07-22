@@ -581,7 +581,11 @@ HTML validation was completed using the W3C Markup Validation Service. The final
 ![404 HTML Validation](assets/images/testing/html-404-validation.png)
 
 #### CSS Validation
+During CSS validation, an error was identified within the stopwatch styling. The issue was caused by an incorrect implementation of the font property when applying the Orbitron typeface to the .frame class. The code was reviewed and corrected by ensuring the selector and font declaration followed the correct CSS syntax. After making these amendments, the stylesheet was revalidated using the W3C CSS Validation Service and passed successfully with no remaining errors, confirming that the website met the required CSS standards while preserving the intended visual design of the stopwatch component.
 
+![CSS Validation Failed](assets/images/testing/css-validation-failed.png)
+
+![CSS Validation Fixed](assets/images/testing/css-validation-fixed.png)
 #### JS Validation (JSLint)
 
 #### Lighthouse Testing (Accessibility)
