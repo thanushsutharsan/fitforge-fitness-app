@@ -455,6 +455,12 @@ Sans-serif has been included as the fallback font family because it is universal
 
 #### Typography (Changes during development)
 
+The typography used throughout the website remained consistent with the original design plan during development. The chosen fonts were maintained across all pages to ensure a consistent visual identity, readability, and a professional user experience.
+
+The only typography change made during development was introducing the Orbitron font for the workout stopwatch section. This was added because the digital and futuristic style of the font complements the purpose of the stopwatch feature, making the timer visually stand out while matching the fitness and technology theme of the website.
+
+No further typography changes were required, as the original font choices successfully met the design requirements.
+
 #### Images and visuals 
 
 I will use high-quality fitness and nutrition images throughout my website to make the content more engaging and motivating for users. The visuals help users quickly understand the purpose of each section, such as workouts, healthy eating and fitness goals, without relying only on text.
