@@ -1,14 +1,42 @@
-const btnStart = document.querySelector('.st');
-const btnReset = document.querySelector('.rs');
-const btnLap = document.querySelector('.lps');
-const btnStop = document.querySelector('.stp');
+/*global document, setInterval, clearInterval*/
 
-const hrsBox = document.querySelector('.hrs');
-const minBox = document.querySelector('.min');
-const secBox = document.querySelector('.sec');
-const msBox = document.querySelector('.ms');
+const btnStart = document.querySelector(".st");
+const btnReset = document.querySelector(".rs");
+const btnLap = document.querySelector(".lps");
+const btnStop = document.querySelector(".stp");
 
-const lapContainer = document.querySelector('.laps');
+const hrsBox = document.querySelector(".hrs");
+const minBox = document.querySelector(".min");
+const secBox = document.querySelector(".sec");
+const msBox = document.querySelector(".ms");
+
+const lapContainer = document.querySelector(".laps");
+
+let hrs = 0;
+let min = 0;
+let sec = 0;
+let ms = 0;
+
+let startTimer = null;
+let running = false;
+
+// Format time
+const format = function (num) {
+    if (num < 10) {
+        return "0" + num;
+    }
+
+    return num;
+};
+
+// Update display
+const updateDisplay = function () {
+    hrsBox.innerText = format(hrs);
+    minBox.innerText = format(min);
+    secBox.innerText = format(sec);
+    msBox.innerText = format(ms);
+};
+
 if (
     btnStart &&
     btnReset &&
@@ -19,84 +47,76 @@ if (
     secBox &&
     msBox &&
     lapContainer
-){
+) {
+    // Start timer
+    btnStart.addEventListener("click", function () {
+        if (startTimer !== null) {
+            return;
+        }
 
-let hrs = 0;
-let min = 0;
-let sec = 0;
-let ms = 0;
+        running = true;
 
-let startTimer = null;
-let running = false;
+        startTimer = setInterval(function () {
+            ms += 1;
 
-// start 
-btnStart.addEventListener('click', () => {
+            if (ms === 100) {
+                ms = 0;
+                sec += 1;
+            }
 
-  if (startTimer !== null) return; 
+            if (sec === 60) {
+                sec = 0;
+                min += 1;
+            }
 
-  running = true;
+            if (min === 60) {
+                min = 0;
+                hrs += 1;
+            }
 
-  startTimer = setInterval(() => {
+            updateDisplay();
+        }, 10);
+    });
 
-    ms++;
-    if (ms === 100) {
-      ms = 0;
-      sec++;
-    }
-    if (sec === 60) {
-      sec = 0;
-      min++;
-    }
-    if (min === 60) {
-      min = 0;
-      hrs++;
-    }
-    updateDisplay();
-  }, 10);
-});
+    // Stop / pause timer
+    btnStop.addEventListener("click", function () {
+        clearInterval(startTimer);
+        startTimer = null;
+        running = false;
+    });
 
-// stop/ pause
-btnStop.addEventListener('click', () => {
-  clearInterval(startTimer);
-  startTimer = null;
-  running = false;
-});
+    // Reset timer
+    btnReset.addEventListener("click", function () {
+        clearInterval(startTimer);
+        startTimer = null;
+        running = false;
 
-// reset
-btnReset.addEventListener('click', () => {
-  clearInterval(startTimer);
-  startTimer = null;
-  running = false;
-  hrs = 0;
-  min = 0;
-  sec = 0;
-  ms = 0;
+        hrs = 0;
+        min = 0;
+        sec = 0;
+        ms = 0;
 
-  updateDisplay();
-  lapContainer.innerHTML = '';
-});
+        updateDisplay();
+        lapContainer.innerHTML = "";
+    });
 
-// lap
-btnLap.addEventListener('click', () => {
-  if (!running) return;
-  const lapTime =
-    `${format(hrs)}:${format(min)}:${format(sec)}:${format(ms)}`;
+    // Lap timer
+    btnLap.addEventListener("click", function () {
+        if (!running) {
+            return;
+        }
 
-  const lap = document.createElement('div');
-  lap.classList.add('lap');
-  lap.innerText = lapTime;
+        const lapTime = [
+            format(hrs),
+            format(min),
+            format(sec),
+            format(ms)
+        ].join(":");
 
-  lapContainer.prepend(lap);
-});
-// format time
-function format(num) {
-  return num < 10 ? '0' + num : num;
-}
-// display update 
-function updateDisplay() {
-  hrsBox.innerText = format(hrs);
-  minBox.innerText = format(min);
-  secBox.innerText = format(sec);
-  msBox.innerText = format(ms);
-}
+        const lap = document.createElement("div");
+        lap.classList.add("lap");
+        lap.innerText = lapTime;
+
+        lapContainer.prepend(lap);
+    });
 }
