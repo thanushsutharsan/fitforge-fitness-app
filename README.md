@@ -574,7 +574,7 @@ Automated testing was particularly appropriate for FitForge as it allowed the we
 
 #### JS Validation (JSLint)
 
-#### Lighthouse Testing
+#### Lighthouse Testing (Accessibility)
 The website was tested using Google Lighthouse through Chrome DevTools to evaluate performance, accessibility, best practices, and SEO. The results scored strong, demonstrating that the website was optimised for usability, accessibility, and efficient loading. The screenshots below provides evidence of the Lighthouse testing results.
 
 **HOME SECTION**
@@ -588,6 +588,18 @@ The website was tested using Google Lighthouse through Chrome DevTools to evalua
 **NUTRITION SECTION**
 
 ![Screenshot of Nutrition Accessibility Test](assets/images/testing/access-test-nutrition.png)
+
+FitForge was developed with accessibility considerations to improve the user experience for keyboard and screen-reader users.
+Accessibility improvements implemented include:
+
+- Semantic HTML structure across all pages.
+- Use of aria-current="page" to indicate the active navigation link.
+- aria-live="polite" regions for dynamic content, including the homepage goal selector, nutrition calculator feedback, and workout lap updates.
+- Descriptive alt text for all images.
+- Appropriate use of headings to maintain a logical page hierarchy.
+- External links configured with rel="noopener noreferrer" for improved security and usability.
+
+These improvements help ensure that users relying on assistive technologies can navigate and interact with the website more effectively.
 
 #### Responsiveness Testing
 
