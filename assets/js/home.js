@@ -2,6 +2,8 @@ const weightLossBtn = document.getElementById("weightLossBtn");
 const athleteBtn = document.getElementById("athleteBtn");
 const result = document.getElementById("result");
 
+
+if (weightLossBtn && athleteBtn && result) {
 weightLossBtn.addEventListener("click", () => {
     result.innerHTML = `
         <h3>Weight Loss Programme</h3>
@@ -19,3 +21,4 @@ athleteBtn.addEventListener("click", () => {
     // Save user's choice
     localStorage.setItem("userGoal", "athlete");
 });
+}
