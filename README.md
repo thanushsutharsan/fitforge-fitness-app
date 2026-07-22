@@ -457,6 +457,8 @@ Automated testing was particularly appropriate for FitForge as it allowed the we
 #### Responsiveness Testing
 
 ### Deployment Testing
+### Keyboard Testing
+### Screen Reader Testing
 
 ## Bugs and Fixes
 
