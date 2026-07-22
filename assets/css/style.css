@@ -505,6 +505,22 @@ footer .soci-text {
     opacity:.8;
 }
 
+/* 404 error image */
+.error-image {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+/* 404 page */
+.error-container {
+
+   text-align: center;
+   font-size: x-large;
+}
+
+
 /*responsive design */
 
 /* mobile */
