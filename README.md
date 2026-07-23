@@ -1519,8 +1519,36 @@ These improvements help ensure that users relying on assistive technologies can 
 #### Responsiveness Testing
 
 ### Deployment Testing
+
 ### Keyboard Testing
-### Screen Reader Testing
+
+
+The website was tested using only keyboard controls to ensure that users who cannot use a mouse can still navigate and interact with the website effectively.
+
+The following keyboard tests were completed:
+
+- **Tab key:** Used to navigate through all interactive elements, including navigation links, buttons, calculator inputs, and workout controls.
+- **Shift + Tab:** Used to navigate backwards through interactive elements.
+- **Enter key:** Used to activate links, buttons, and interactive features.
+- **Spacebar:** Tested on buttons and interactive controls where applicable.
+- **Focus indicators:** Checked that the currently selected element was clearly visible when navigating using the keyboard.
+
+Testing confirmed that all important interactive elements could be accessed using keyboard navigation and that the focus order followed a logical sequence.
+
+Evidence of keyboard testing is shown below:
+
+![Screenshot of Navigation Keyboard Test](assets/images/testing/home-kb-test.png)
+
+
+![Screenshot of CTA Keyboard Test](assets/images/testing/cta-kb-test.png)
+
+![Screenshot of Stopwatch Keyboard Test](assets/images/testing/stw-kb-test.png)
+
+![Screenshot of Calculate Button Keyboard Test](assets/images/testing/cal-kb-test.png)
+
+![Screenshot of Footer Keyboard Test](assets/images/testing/footer-kb-test.png)
+
+
 
 ## Bugs and Fixes
 
