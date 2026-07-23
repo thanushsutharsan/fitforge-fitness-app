@@ -1,18 +1,22 @@
+/*global document, window, setInterval, clearInterval*/
+
 // 404 page automatic redirect countdown
 
-let seconds = 10;
+var seconds = 10;
+var countdown = document.getElementById("countdown");
+var timer;
 
-const countdown = document.getElementById("countdown");
+function updateCountdown() {
+    seconds = seconds - 1;
+
+    countdown.textContent = seconds;
+
+    if (seconds === 0) {
+        clearInterval(timer);
+        window.location.href = "index.html";
+    }
+}
 
 if (countdown) {
-    const timer = setInterval(() => {
-        seconds--;
-
-        countdown.textContent = seconds;
-
-        if (seconds === 0) {
-            clearInterval(timer);
-            window.location.href = "index.html";
-        }
-    }, 1000);
+    timer = setInterval(updateCountdown, 1000);
 }
