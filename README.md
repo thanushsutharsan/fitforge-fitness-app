@@ -1786,6 +1786,10 @@ The following external resources were used during the development of this projec
 Collectively, these resources contributed to the successful development, testing, and validation of the project, ensuring that both technical requirements and user experience expectations were met.
 
 ## Credits
+
+
+All images used throughout the website, including the workout card images and the 404 error page image, were created by me using **ChatGPT Image Generation**. I created customised prompts and refined the generated images to ensure they matched the FitForge branding, fitness theme, and overall website design. The images were specifically created for this project to provide a consistent visual style across the website. No external stock images were used for these sections.
+
 ---
 ## References
 
