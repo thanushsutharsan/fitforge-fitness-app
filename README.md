@@ -1520,6 +1520,21 @@ These improvements help ensure that users relying on assistive technologies can 
 
 ### Deployment Testing
 
+The website was deployed using GitHub Pages and tested to ensure that the live version functions correctly after deployment. Testing was completed by accessing the deployed website through the live URL and checking that all pages, assets, and interactive features worked as expected.
+
+The following deployment tests were completed:
+
+- **Live website accessibility:** Confirmed that the deployed website could be accessed through the GitHub Pages URL.
+- **Page loading:** Checked that all pages loaded correctly without broken links, missing content, or loading errors.
+- **Navigation testing:** Verified that all navigation links directed users to the correct pages.
+- **Image and asset loading:** Confirmed that images, icons, external fonts, and CSS files loaded correctly after deployment.
+- **JavaScript functionality:** Tested interactive features, including the workout timer, goal selector, and macronutrient calculator, to ensure they functioned correctly on the live website.
+- **Responsive behaviour:** Checked that the deployed website displayed correctly across different screen sizes and devices.
+
+Deployment testing confirmed that the final published version of FitForge operates correctly online and provides users with a fully functional experience.
+
+Screenshots of the deployed live website are included at the end of this README to demonstrate the final appearance and functionality of the completed project.
+
 ### Keyboard Testing
 
 
