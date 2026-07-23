@@ -1707,6 +1707,36 @@ All identified bugs were fixed to improve the overall functionallity,layout and 
 
 ## Project Structure
 
+
+```text
+fitforge-fitness-app/
+│
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   │
+│   ├── favicon/
+│   │
+│   ├── images/
+│   │   └── testing/
+│   │       └── user-studies-evidence/
+│   │
+│   ├── js/
+│   │   ├── 404.js
+│   │   ├── home.js
+│   │   ├── nutrition.js
+│   │   └── workout.js
+│   │
+│   ├── wireframes/
+│   │
+│   └── .gitignore
+│
+├── 404.html
+├── index.html
+├── nutrition.html
+├── workout.html
+└── README.md
+```
 ## External Resources
 
 The following external resources were used during the development of this project to support design decisions, implement functionality, and validate the final product:
