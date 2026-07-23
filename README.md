@@ -1741,6 +1741,7 @@ fitforge-fitness-app/
 │   ├── favicon/
 │   │
 │   ├── images/
+│   │   ├── final-project-sc/
 │   │   └── testing/
 │   │       └── user-studies-evidence/
 │   │
