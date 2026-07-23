@@ -22,101 +22,98 @@ let running = false;
 
 // Format time
 const format = function (num) {
-    if (num < 10) {
-        return "0" + num;
-    }
+  if (num < 10) {
+    return "0" + num;
+  }
 
-    return num;
+  return num;
 };
 
 // Update display
 const updateDisplay = function () {
-    hrsBox.innerText = format(hrs);
-    minBox.innerText = format(min);
-    secBox.innerText = format(sec);
-    msBox.innerText = format(ms);
+  hrsBox.innerText = format(hrs);
+  minBox.innerText = format(min);
+  secBox.innerText = format(sec);
+  msBox.innerText = format(ms);
 };
 
 if (
-    btnStart &&
-    btnReset &&
-    btnLap &&
-    btnStop &&
-    hrsBox &&
-    minBox &&
-    secBox &&
-    msBox &&
-    lapContainer
+  btnStart &&
+  btnReset &&
+  btnLap &&
+  btnStop &&
+  hrsBox &&
+  minBox &&
+  secBox &&
+  msBox &&
+  lapContainer
 ) {
-    // Start timer
-    btnStart.addEventListener("click", function () {
-        if (startTimer !== null) {
-            return;
-        }
+  // Start timer
+  btnStart.addEventListener("click", function () {
+    if (startTimer !== null) {
+      return;
+    }
 
-        running = true;
+    running = true;
 
-        startTimer = setInterval(function () {
-            ms += 1;
+    startTimer = setInterval(function () {
+      ms += 1;
 
-            if (ms === 100) {
-                ms = 0;
-                sec += 1;
-            }
-
-            if (sec === 60) {
-                sec = 0;
-                min += 1;
-            }
-
-            if (min === 60) {
-                min = 0;
-                hrs += 1;
-            }
-
-            updateDisplay();
-        }, 10);
-    });
-
-    // Stop / pause timer
-    btnStop.addEventListener("click", function () {
-        clearInterval(startTimer);
-        startTimer = null;
-        running = false;
-    });
-
-    // Reset timer
-    btnReset.addEventListener("click", function () {
-        clearInterval(startTimer);
-        startTimer = null;
-        running = false;
-
-        hrs = 0;
-        min = 0;
-        sec = 0;
+      if (ms === 100) {
         ms = 0;
+        sec += 1;
+      }
 
-        updateDisplay();
-        lapContainer.innerHTML = "";
-    });
+      if (sec === 60) {
+        sec = 0;
+        min += 1;
+      }
 
-    // Lap timer
-    btnLap.addEventListener("click", function () {
-        if (!running) {
-            return;
-        }
+      if (min === 60) {
+        min = 0;
+        hrs += 1;
+      }
 
-        const lapTime = [
-            format(hrs),
-            format(min),
-            format(sec),
-            format(ms)
-        ].join(":");
+      updateDisplay();
+    }, 10);
+  });
 
-        const lap = document.createElement("div");
-        lap.classList.add("lap");
-        lap.innerText = lapTime;
+  // Stop / pause timer
+  btnStop.addEventListener("click", function () {
+    clearInterval(startTimer);
+    startTimer = null;
+    running = false;
+  });
 
-        lapContainer.prepend(lap);
-    });
+  // Reset timer
+  btnReset.addEventListener("click", function () {
+    clearInterval(startTimer);
+    startTimer = null;
+    running = false;
+
+    hrs = 0;
+    min = 0;
+    sec = 0;
+    ms = 0;
+
+    updateDisplay();
+    lapContainer.innerHTML = "";
+  });
+
+  // Lap timer
+  btnLap.addEventListener("click", function () {
+    if (!running) {
+      return;
+    }
+
+    const lapTime = [format(hrs), format(min), format(sec), format(ms)].join(
+      ":",
+    );
+
+    const lap = document.createElement("div");
+    lap.classList.add("lap");
+    lap.innerText = lapTime;
+
+    lapContainer.prepend(lap);
+  });
 }

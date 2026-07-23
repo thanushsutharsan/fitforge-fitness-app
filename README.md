@@ -1,30 +1,33 @@
 # FitForge Fitness App
+
 ## Description
 
 This website is designed to support users who want to improve their fitness and maintain a healthier lifestyle. It provides a range of tools and resources to help users time their workouts, make healthier nutritional choices and discover new exercises. This website is developed for people who want to improve their overall health, stay active, and build healthy habits through easy to use fitness and nutritional features.
 
 ## Technologies Used
- - HTML
- - CSS
- - JavaScript
- - BootStrap
- - Git/Github
- - VsCode
+
+- HTML
+- CSS
+- JavaScript
+- BootStrap
+- Git/Github
+- VsCode
 
 ## Version Control
+
 Git and Github were used throughout the development of FitForge Fitness App to track changes, manage updates and maintain a clear development history.
 Commit messages followed a consistent naming convention using prefixes such as:
 
 - feat: Used when adding new features or functionality to the application.
-    - Example: Adding the macronutrient calculator, workout stopwatch, or goal selector.
+  - Example: Adding the macronutrient calculator, workout stopwatch, or goal selector.
 - fix: Used when correcting bugs, errors, or issues within the code.
-    - Example: Fixing responsive layout issues, incorrect class names, or JavaScript errors.
+  - Example: Fixing responsive layout issues, incorrect class names, or JavaScript errors.
 - docs: Used for changes made to documentation files such as the README.
-    - Example: Adding testing descriptions, updating project information, and improving documentation structure.
+  - Example: Adding testing descriptions, updating project information, and improving documentation structure.
 - style: Used for changes related to the appearance and formatting of the application.
-    - Example: Updating CSS styling, improving layouts, or adjusting design elements.
+  - Example: Updating CSS styling, improving layouts, or adjusting design elements.
 - chore: Used for general maintenance tasks that do not directly affect functionality.
-    - Example: Updating project organisation, preparing files, or making minor configuration changes.
+  - Example: Updating project organisation, preparing files, or making minor configuration changes.
 
 Using these commit conventions helped keep the project history organised, making it easier to identify changes and track the development process.
 
@@ -64,6 +67,7 @@ Deployment steps:
 ## User Experience Design (UXD)
 
 ### Overview
+
 This website is designed to help users improve their fitness and create healthy eating habits by providing a range of fitness and nutrition tools in one place to help support their health and fitness journey.
 
 ### Purpose
@@ -75,46 +79,56 @@ The website has been designed with clean modern and user friendly layout to ensu
 ### User Studies (Planning Section)
 
 #### Target Users
- 1. People looking to lose weight
- 2. Athletes or sports users
+
+1.  People looking to lose weight
+2.  Athletes or sports users
 
 ---
+
 **People Looking to Lose Weight**
 
-*First Time Visitor...*
+_First Time Visitor..._
+
 - As a First Time Visitor, I want to know which guidance to follow by using the CTA buttons of lose weight and athlete training.
 - As a First Time Visitor, I want to use the Macronutrient Calculator so I can understand my nutritional requirements.
 - As a First Time Visitor, I want to explore different workouts so I can exercise different parts of my body.
 
-*Returning Visitor...*
-- As a Returning Visitor, I want to use a  stopwatch to time my workouts more accurately.
+_Returning Visitor..._
+
+- As a Returning Visitor, I want to use a stopwatch to time my workouts more accurately.
 - As a Returning Visitor, I want to explore different muscle group workouts to add variety to my daily exercise routine.
 - As a Returning Visitor, I want to read nutrition tips so I can make healthier food choices.
 
-*Frequent Visitor*
+_Frequent Visitor_
+
 - As a Frequent Visitor, I want to use a stopwatch during my workout session.
 - As a Frequent Visitor, I want to regularly use the Macronutrient Calculator to support my fitness goals.
 - As a Frequent Visitor, I want to access workout and nutrition resources to maintain a healthy lifestyle.
 
 ---
+
 **Athlete OR Sports Users**
 
-*First Time Visitor...*
+_First Time Visitor..._
+
 - As a First Time Visitor, I want to find workouts for specific muscle groups so I can tailor my training sessions to my needs.
 - As a First Time Visitor, I want to use Macronutrient Calculator so I can understand my nutritional needs for muscle growth and recovery.
 - As a First Time Visitor, I want to use CTA button (Start Your Journey) on the homepage to access the workout page seamlessly.
 
-*Returning Visitor...*
+_Returning Visitor..._
+
 - As a Returning Visitor, I want to use the stopwatch to accurately time my sets for my training sessions.
 - As a Returning Visitor, I want to read nutritional facts and tips so I can maintain peak performance without weak recovery.
 - As a Returning Visitor, I want to improve my strength and training routine by exploring different muscle group workouts.
 
-*Frequent Visitor*
+_Frequent Visitor_
+
 - As a Frequent Visitor, I want to revisit the website before each gym session so I can plan my workout.
 - As a Frequent Visitor, I want to re-access the stopwatch to time my daily sessions.
 - As a Frequent Visitor, I want to revisit the meal examples provided so I can make healthier food choices throughout the day to support my training journey.
 
 ### User Studies (Evidence section)
+
 #### 1. Goal Selections/ CTA Navigations
 
 Screenshot:
@@ -145,7 +159,6 @@ Screenshot:
 
 ![workout-cards](assets/images/testing/user-studies-evidence/workout-cards.png)
 
-
 Supports:
 
 People Looking to Lose Weight:
@@ -162,7 +175,6 @@ Athlete or Sports Users:
 Evidence description:
 The workout cards allow users to explore different exercises targeting specific muscle groups, supporting personalised workout planning.
 
-
 #### 3. Workout Stopwatch
 
 Screenshot:
@@ -176,6 +188,7 @@ People Looking to Lose Weight:
 - As a Frequent Visitor, I want to use a stopwatch during my workout session.
 
 Athlete or Sports Users
+
 - As a Returning Visitor, I want to use the stopwatch to accurately time my sets.
 - As a Frequent Visitor, I want to re-access the stopwatch to time my daily sessions.
 
@@ -205,9 +218,8 @@ Athlete or Sports Users:
 Evidence description:
 The macronutrient calculator provides personalised nutritional information based on user inputs, helping users support their fitness goals.
 
-
-
 #### 5. Nutrition Tips / Resources
+
 Screenshot:
 
 ![nutrition-cards](assets/images/testing/user-studies-evidence/nutrition-cards.png)
@@ -227,6 +239,7 @@ Evidence description:
 The nutrition section provides users with educational resources covering healthy eating, recovery and meal planning.
 
 ### Research
+
 To make sure my website was designed around the needs of real users, I followed the User-Centred Design (UCD) approach by carrying out research before I started building the website. Instead of guessing what people might struggle with, user research was conducted by analysing fitness-related Instagram Reels and reviewing user comments to identify common problems, motivations and requirements among beginner fitness users and athletes. I also looked through the comments to see what other people were saying and what problems they were facing.
 
 From my research, I noticed that a lot of beginners didn’t know where to start, found it hard to stay motivated, or weren’t sure which exercises were right for them. I also saw that many people felt overwhelmed because there is so much fitness advice online, and not all of it is relevant to their goals. I found that athletes and sports users had different needs too, as they were more focused on improving performance rather than losing weight.
@@ -237,28 +250,29 @@ The research also influenced the layout of my website. I kept the design simple,
 
 Overall, using the User-Centred Design approach meant that my decisions were based on real user experiences rather than my own assumptions. This helped me create a website that is more useful, easier to navigate, and better suited to the people who will be using it.
 
-| Findings from Instagram Reel | How it influenced my website |
-| ---------------------------- | ---------------------------- |
-| Many beginner fitness creators shared videos explaining how do I start my workout? and how intimidating it can be. https://www.instagram.com/reel/DW9p393iNYF/?igsh=MW9lNGF5MzdsN2Rtdg== | I will use motivational language that is easy to understand with visual images to make it inclusive to all levels of people regardless of their experience |
-| A lot of comments on workout reels ask which exercises are best for weight loss or athlete training | I will implement a section on the homepage where users can select their fitness goal and a message will show what they need to work on. |
-| Many people discuss how they easily lose motivation and find it difficult to find workouts. | I will keep the website simple with clear navigation so users can quickly access information without feeling overwhelmed. I will also provide links with CTA buttons to youtube videos with key workout guides. |
-| Research on Instagram using the hashtags #fitness #fitnessinspiration comes up with and focus on the ideal body  rather than how to get there.  https://www.instagram.com/reel/DZxtBs3vd-X/?igsh=c3BuM2x0NnR6bnFl | I will foccus my website on helping users achieve their own fitness goals rather than comparing themselves to unrealistic body standards. |
+| Findings from Instagram Reel                                                                                                                                                                                    | How it influenced my website                                                                                                                                                                                    |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Many beginner fitness creators shared videos explaining how do I start my workout? and how intimidating it can be. https://www.instagram.com/reel/DW9p393iNYF/?igsh=MW9lNGF5MzdsN2Rtdg==                        | I will use motivational language that is easy to understand with visual images to make it inclusive to all levels of people regardless of their experience                                                      |
+| A lot of comments on workout reels ask which exercises are best for weight loss or athlete training                                                                                                             | I will implement a section on the homepage where users can select their fitness goal and a message will show what they need to work on.                                                                         |
+| Many people discuss how they easily lose motivation and find it difficult to find workouts.                                                                                                                     | I will keep the website simple with clear navigation so users can quickly access information without feeling overwhelmed. I will also provide links with CTA buttons to youtube videos with key workout guides. |
+| Research on Instagram using the hashtags #fitness #fitnessinspiration comes up with and focus on the ideal body rather than how to get there. https://www.instagram.com/reel/DZxtBs3vd-X/?igsh=c3BuM2x0NnR6bnFl | I will foccus my website on helping users achieve their own fitness goals rather than comparing themselves to unrealistic body standards.                                                                       |
 
 #### Color Research
+
 Before creating the website, I researched color psychology, fitness website design and colour theory principles to identify color that would be suitable for both the purpose of the website and its target audience. I experimented with different color combinations using complementary and monochromatic colour palettes to find a scheme that balanced professionalism, readability and visual appeal.
 
 The final colors palette of black, lime green and white was selected because these colors work effectively together whilst reflecting the themes of health, fitness and motivation.
 
 - Lime green provides an energetic and positive appearance that is associated with wellbeing, growth and balance, with research suggesting that exposure to green environments can improve mood and reduce perceived exertion during exercise (Akers et al., 2012).
 
- - Black was selected as the main background colour because it creates a modern and professional visual identity that aligns with the fitness industry. Colour choices can influence how users perceive a brand and whether the visual identity matches the purpose of a product or service (Bottomley and Doyle, 2006). The use of black helps create a strong and focused appearance, allowing the lime green and white elements to stand out clearly while maintaining a consistent and recognisable brand style.
+- Black was selected as the main background colour because it creates a modern and professional visual identity that aligns with the fitness industry. Colour choices can influence how users perceive a brand and whether the visual identity matches the purpose of a product or service (Bottomley and Doyle, 2006). The use of black helps create a strong and focused appearance, allowing the lime green and white elements to stand out clearly while maintaining a consistent and recognisable brand style.
 
- - White improves readability and accessibility by creating contrast, reducing visual clutter and supporting a clean design layout, which are important principles in effective graphic design (Lupton and Phillips, 2015).
+- White improves readability and accessibility by creating contrast, reducing visual clutter and supporting a clean design layout, which are important principles in effective graphic design (Lupton and Phillips, 2015).
 
- Using color theory principles allowed me to create a consistent visual identity across all pages whilst ensuring that important information remains easy for users to recognise and navigate.
+Using color theory principles allowed me to create a consistent visual identity across all pages whilst ensuring that important information remains easy for users to recognise and navigate.
 
+---
 
-------
 ### I. Strategy
 
 #### Target Audience
@@ -268,6 +282,7 @@ This website is for individuals who are interested in improving their fitness he
 Although my website is designed for two different target audiences, it provides a personalised experience for both. When users first visit the website, they are asked “Who are you?” and can choose either people looking to Lose Weight or Athletes/Sports users. Using JavaScript, the website displays a message explaining the type of programme that best matches their chosen goal and stores their selection using localStorage. The macronutrient calculator also asks users about their fitness goal before providing recommendations. These features help ensure that the information users receive is relevant to their individual needs, making the website more user-centred and suitable for both target audiences.
 
 #### Content
+
 The content of the website is relevant appropriate as it provides users with useful fitness and nutrition resources to support a healthier lifestyle. It includes workout guides, nutrition information, meal inspirations and practical tools that help users achieve their fitness goals. The use of images throughout the website makes the content more engaging and easier to understand this creates a better user experience by presenting information visually, reducing text overload and making a seamless smooth experience.
 
 #### Problems and Solutions
@@ -277,6 +292,7 @@ One of the problems users face when trying to improve thier fitness is not knowi
 To solve this, I developed this website to provide users with accessible fitness and nutritional rescources in one place. The website offers workout guidance, a stopwatch to help time exercise intervals, a macronutrient calculator, nutrition tips and meal inspiration making it easier for users to begin and stay consistent with their health and fitness journey.
 
 #### Buisness Goals
+
 The key goal of the website is to encourage users to improve thier fitness and nutrition by providing easy to use tools, workout rescources and healthy lifestyle guidance. It aims to help users stay motivated, build consistent habits and make informed decisions about their health and well-being.
 
 #### User Needs
@@ -285,17 +301,23 @@ The key goal of the website is to encourage users to improve thier fitness and n
 - Users need the website to work effectively across desktops, tablets and mobile devices.
 - Users should be able to quickly access workouts,nutrition, information and fitness tools without feeling overwhemled.
 - Users needs a simple, user freindly interface that makes it easy to stay engaged and motivated throughout the fitness journey.
+
 ---
+
 ### II. Scope
 
 #### MVP (Minimum Viable Product)
+
 - Must have a Homepage with a hero section, navigation bar and clear CTA buttons linking to workouts and nutrition pages, aswell as get started button linked to a google form .(Home)
 - Must have a workout page that includes a built in stop watch with a lap button and images of different muscle groups with each image linking to relevant workout routine videos. (Workout)
 - Must have a nutrition page featuring a Macronutrient calculator, key nutrition facts, healthy meal inspirations for breakfast, lunch and dinner and tips to help users optimise their nutrition. (Nutrition)
 - Must have a footer at the bottom of every page containing social media links with copyright information. (Footer)
 - Must have a responsive navigation bar that allows users to easily move between all pages smoothly.
+
 ---
+
 #### Further Developments
+
 - Add Personalised workout plans based on the users fitness goals and experience levels
 - Introduce Progress tracking so users can monitor progress overtime.
 
@@ -306,6 +328,7 @@ The key goal of the website is to encourage users to improve thier fitness and n
 During the development process, a custom 404 error page was added after the initial planning stage. This feature was not included in the original user stories or planning documentation; however, it was implemented to improve the overall user experience. The 404 page provides users with clear feedback when they access an unavailable page and includes an automatic redirect countdown that guides users back to the homepage after a set period of time. This prevents users from becoming stuck and ensures smoother navigation throughout the website.
 
 ---
+
 ### III. Structure
 
 #### Information Architecture & Logical Organisation of Features
@@ -328,6 +351,7 @@ During the development process, a custom 404 error page was added after the init
 5. Users can access social media links on all pages by the footer located at the bottom of the page.
 
 ---
+
 ### IV. Skeleton
 
 Wireframes were used to plan each page and give clear visual structure before creating the website.
@@ -342,45 +366,45 @@ In contrast, the **NUTRITION** page contains a significantly larger number of in
 
 The information cards will be implemented using a combination of Bootstrap’s responsive grid system, CSS media queries, and custom CSS. This will allow the layout, sizing, spacing, and number of cards displayed per row to adapt dynamically to different screen sizes, ensuring the page remains fully responsive and provides an optimal user experience across all devices. As these adjustments will be handled during development, the use of an information box within the Nutrition page wireframe provides an appropriate and practical representation of the proposed design.
 
- Homepage Wireframes
- ---
+Homepage Wireframes
 
+---
 
-*Mobile wireframe*
---
+## _Mobile wireframe_
+
 ![homepage-mobile-wireframe](assets/wireframes/homepage-mobile.png)
 
-*Tablet wireframe*
---
+## _Tablet wireframe_
+
 ![homepage-tablet-wireframe](assets/wireframes/homepage-tablet.png)
 
-*Desktop wireframe*
---
+## _Desktop wireframe_
+
 ![homepage-desktop-wireframe](assets/wireframes/homepage-desktop.png)
 
 - Header: Logo and the navigation bar in the center on all devices.
 - Short-brief: Short description of the website.
-    - CTA button: Start your Journey.
+  - CTA button: Start your Journey.
 - Why chose us section: Information cards
-encouraging users to use the website.
+  encouraging users to use the website.
 - Chose your fitness goal section: To make the website more interactive a personalised to the user.
-   - CTA button : Lose weight & Athlete training.
+  - CTA button : Lose weight & Athlete training.
 - Footer: Social media links and copyright information.
 
 Workout Wireframes
- ---
 
+---
 
-*Mobile wireframe*
---
+## _Mobile wireframe_
+
 ![workout-mobile-wireframe](assets/wireframes/workout-mobile.png)
 
-*Tablet wireframe*
---
+## _Tablet wireframe_
+
 ![workout-tablet-wireframe](assets/wireframes/workout-tablet.png)
 
-*Desktop wireframe*
---
+## _Desktop wireframe_
+
 ![workout-desktop-wireframe](assets/wireframes/workout-desktop.png)
 
 - Header: Consistent with the homepage design and navigation.
@@ -388,19 +412,19 @@ Workout Wireframes
 - Footer: Matches the homepage footer for consistent user experience.
 
 Nutrition Wireframes
- ---
 
+---
 
-*Mobile wireframe*
---
+## _Mobile wireframe_
+
 ![nutrition-mobile-wireframe](assets/wireframes/nutrition-mobile.png)
 
-*Tablet wireframe*
---
+## _Tablet wireframe_
+
 ![nutrition-tablet-wireframe](assets/wireframes/nutrition-tablet.png)
 
-*Desktop wireframe*
---
+## _Desktop wireframe_
+
 ![nutrition-desktop-wireframe](assets/wireframes/nutrition-desktop.png)
 
 - Header: Consistent with the homepage design and navigation.
@@ -410,7 +434,7 @@ Nutrition Wireframes
 #### Design Points
 
 - Use a consistent layout across all pages so that users have the same experience throughout the website. The header, navigation bar, colour scheme and footer will remain the same on each page, making the website feel organised and professional.
-The website will be fully responsive, allowing it to work on mobile phones, tablets and desktop computers.
+  The website will be fully responsive, allowing it to work on mobile phones, tablets and desktop computers.
 
 - Carefully position the call-to-action buttons so they are easy to find and use.
 
@@ -419,9 +443,11 @@ The website will be fully responsive, allowing it to work on mobile phones, tabl
 - Use consistent colours, fonts and spacing throughout the website to improve readability and create a professional appearance. This will help users focus on the content without being distracted by inconsistent styling.
 
 ---
+
 ### V. Surface
 
 #### Color Scheme
+
 Color Palette Summary
 
 - Primary colors : Black, White + Lime Green (#BEE21F).
@@ -449,7 +475,6 @@ The **NUTRITION** page will use the same colour palette to maintain consistency 
 White will be used throughout the website because it will provide excellent readability when displayed against darker backgrounds. It will be used for body text, stopwatch displays, hover effects and table content to ensure that important information is clearly visible. Interactive elements will change to white when hovered over to provide users with immediate visual feedback, improving the overall user experience and accessibility of the website.
 
 The **FOOTER** will maintain the primary lime green colour used throughout the website to create a sense of consistency and completion across all pages. The social media section will use a light grey colour (#F1EAEA) alongside dark icons to separate it visually from the footer whilst remaining clean and professional. This subtle colour variation will prevent the design from becoming repetitive whilst maintaining strong contrast for readability
-
 
 #### Typography (Choices)
 
@@ -517,28 +542,27 @@ Disadvantages of Manual Testing
 Manual testing was particularly appropriate for FitForge because many of its features rely on user interaction. Testing the navigation menu, goal selector, workout timer and macronutrient calculator manually ensured that users could interact with the website as intended across a range of devices and screen sizes.
 
 #### Development Testing Table
+
 Development testing was carried out throughout the implementation stage of the project. Features were tested when being developed to ensure they functioned correctly before progressing on to the deployment stage. This iterative approach allowed issues to be identified and resolved early in the development process. The website was tested to ensure:
 
- - Navigation is simple and intuitive.
- - Buttons are clearly labelled.
- - Content is easy to read across all devices.
- - Sections are appropriately spaced for accessibility.
- - Interactive features that provide clear feedback to users.
+- Navigation is simple and intuitive.
+- Buttons are clearly labelled.
+- Content is easy to read across all devices.
+- Sections are appropriately spaced for accessibility.
+- Interactive features that provide clear feedback to users.
 
-
-
-
-| Feature Tested | Testing Procedure | Expected Results | Actual Result | Pass/Fail | Solution |
-| -------------- | ------------------| ---------------- | ------------- |---------- | -------- |
-| Navigation Menu | Click navigation links | Nav-links should navigate to the correct sections | Workout Navigation is broken | **FAIL** | change the navigation link from workouts.html to workout.html (spelling error)
-| Goal Selector | Select different fitness goals | Selected goal should display correctly | Goal was successfully displayed | **PASS** |  N/a |
-| Workout Stopwatch | Test start/stop/lap/reset buttons | Stopwatch should perform each function correctly | All stopwatch functions worked as expected | **PASS** |  N/a |
-| Macronutrient Calculator | Enter user details | Calculator should return correct macronutrient values | Calculator displayed accurate results and rejected invalid inputs | **PASS** |  N/a |
-| Images | Check if all images are visible | Images should load correctly without broken links | All images displayed correctly | **PASS** |  N/a |
-| Responsive styling | Test if layout is responsive to all sizes | Website should adjust correctly when the page size changes | The layout was all over the place and not as intended mainly nutrition and workout cards and footer | **FAIL** | add  missing div to workout to correct the footer and card issue for workout section also in css change the flex-direction and the correct spelling from coll to col in nutrition |
-| CTA | Click to see if CTA buttons works  | All CTA buttons should operate as intended. | All external and internal links are directed correctly as it should. | **PASS** |  N/a |
+| Feature Tested           | Testing Procedure                         | Expected Results                                           | Actual Result                                                                                       | Pass/Fail | Solution                                                                                                                                                                         |
+| ------------------------ | ----------------------------------------- | ---------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Navigation Menu          | Click navigation links                    | Nav-links should navigate to the correct sections          | Workout Navigation is broken                                                                        | **FAIL**  | change the navigation link from workouts.html to workout.html (spelling error)                                                                                                   |
+| Goal Selector            | Select different fitness goals            | Selected goal should display correctly                     | Goal was successfully displayed                                                                     | **PASS**  | N/a                                                                                                                                                                              |
+| Workout Stopwatch        | Test start/stop/lap/reset buttons         | Stopwatch should perform each function correctly           | All stopwatch functions worked as expected                                                          | **PASS**  | N/a                                                                                                                                                                              |
+| Macronutrient Calculator | Enter user details                        | Calculator should return correct macronutrient values      | Calculator displayed accurate results and rejected invalid inputs                                   | **PASS**  | N/a                                                                                                                                                                              |
+| Images                   | Check if all images are visible           | Images should load correctly without broken links          | All images displayed correctly                                                                      | **PASS**  | N/a                                                                                                                                                                              |
+| Responsive styling       | Test if layout is responsive to all sizes | Website should adjust correctly when the page size changes | The layout was all over the place and not as intended mainly nutrition and workout cards and footer | **FAIL**  | add missing div to workout to correct the footer and card issue for workout section also in css change the flex-direction and the correct spelling from coll to col in nutrition |
+| CTA                      | Click to see if CTA buttons works         | All CTA buttons should operate as intended.                | All external and internal links are directed correctly as it should.                                | **PASS**  | N/a                                                                                                                                                                              |
 
 ---
+
 ### Automated Testing
 
 Automated testing tools were used to validate the quality and performance of the code. These tools helped identify any errors relating to accessibility, responsiveness and code validity. Automated testing enables developers to quickly assess whether a website meets web standards and performs consistently across different environments.
@@ -581,6 +605,7 @@ HTML validation was completed using the W3C Markup Validation Service. The final
 ![404 HTML Validation](assets/images/testing/html-404-validation.png)
 
 #### CSS Validation
+
 During CSS validation, an error was identified within the stopwatch styling. The issue was caused by an incorrect implementation of the font property when applying the Orbitron typeface to the .frame class. The code was reviewed and corrected by ensuring the selector and font declaration followed the correct CSS syntax. After making these amendments, the stylesheet was revalidated using the W3C CSS Validation Service and passed successfully with no remaining errors, confirming that the website met the required CSS standards while preserving the intended visual design of the stopwatch component.
 
 ![CSS Validation Failed](assets/images/testing/css-validation-failed.png)
@@ -588,6 +613,7 @@ During CSS validation, an error was identified within the stopwatch styling. The
 ![CSS Validation Fixed](assets/images/testing/css-validation-fixed.png)
 
 #### JS Validation (JSLint)
+
 **HOMEPAGE**
 
 During development, the Goal Selector JavaScript functionality was updated to improve code quality and ensure the code passed JSLint validation.
@@ -605,9 +631,7 @@ These improvements resulted in cleaner, more maintainable JavaScript code that f
 
 ![Screenshot of JSLint Warning Message Pt1 (Home)](assets/images/testing/home-js-error.png)
 
-
 ![Screenshot of JSLint Warning Message Pt2 (Home)](assets/images/testing/home-js-error2.png)
-
 
 ![Screenshot of JSLint Fixed (No errors - Home)](assets/images/testing/home-js-fixed.png)
 
@@ -636,9 +660,7 @@ The original code used browser features such as:
 ```javascript
 document.querySelector(".st");
 
-setInterval(function () {
-
-});
+setInterval(function () {});
 
 clearInterval(startTimer);
 ```
@@ -666,11 +688,11 @@ This informs JSLint that these objects are provided by the browser environment a
 The original JavaScript used single quotation marks:
 
 ```javascript
-const btnStart = document.querySelector('.st');
+const btnStart = document.querySelector(".st");
 
-const lap = document.createElement('div');
+const lap = document.createElement("div");
 
-lap.classList.add('lap');
+lap.classList.add("lap");
 ```
 
 **JSLint Error**
@@ -719,7 +741,7 @@ The condition was changed to:
 
 ```javascript
 if (startTimer !== null) {
-    return;
+  return;
 }
 ```
 
@@ -766,9 +788,7 @@ Removing unnecessary whitespace keeps the code clean, consistent, and easier to 
 The original event listeners used arrow functions:
 
 ```javascript
-btnStart.addEventListener("click", () => {
-
-});
+btnStart.addEventListener("click", () => {});
 ```
 
 **JSLint Error**
@@ -782,9 +802,7 @@ Use 'function (...)', not '(...) =>'.
 Arrow functions were replaced with traditional functions:
 
 ```javascript
-btnStart.addEventListener("click", function () {
-
-});
+btnStart.addEventListener("click", function () {});
 ```
 
 **Reason for Change**
@@ -854,18 +872,18 @@ The helper functions were organised before the event listeners:
 
 ```javascript
 const format = function (num) {
-    if (num < 10) {
-        return "0" + num;
-    }
+  if (num < 10) {
+    return "0" + num;
+  }
 
-    return num;
+  return num;
 };
 
 const updateDisplay = function () {
-    hrsBox.innerText = format(hrs);
-    minBox.innerText = format(min);
-    secBox.innerText = format(sec);
-    msBox.innerText = format(ms);
+  hrsBox.innerText = format(hrs);
+  minBox.innerText = format(min);
+  secBox.innerText = format(sec);
+  msBox.innerText = format(ms);
 };
 ```
 
@@ -882,13 +900,9 @@ Moving these functions improved code organisation, reduced scope issues, and ens
 The original helper functions used:
 
 ```javascript
-function format(num) {
+function format(num) {}
 
-}
-
-function updateDisplay() {
-
-}
+function updateDisplay() {}
 ```
 
 **JSLint Error**
@@ -902,13 +916,9 @@ Unexpected 'function'.
 The functions were changed into function expressions:
 
 ```javascript
-const format = function (num) {
+const format = function (num) {};
 
-};
-
-const updateDisplay = function () {
-
-};
+const updateDisplay = function () {};
 ```
 
 **Reason for Change**
@@ -939,7 +949,7 @@ The ternary operator was replaced with an if statement:
 
 ```javascript
 if (num < 10) {
-    return "0" + num;
+  return "0" + num;
 }
 
 return num;
@@ -958,10 +968,8 @@ The if statement is easier to read, improves maintainability, and avoids unneces
 The lap time was created using string concatenation:
 
 ```javascript
-const lapTime = format(hrs) + ":" +
-    format(min) + ":" +
-    format(sec) + ":" +
-    format(ms);
+const lapTime =
+  format(hrs) + ":" + format(min) + ":" + format(sec) + ":" + format(ms);
 ```
 
 **JSLint Error**
@@ -975,12 +983,7 @@ Expected one space between '+' and ':'.
 The lap time was changed to use an array and `.join()`:
 
 ```javascript
-const lapTime = [
-    format(hrs),
-    format(min),
-    format(sec),
-    format(ms)
-].join(":");
+const lapTime = [format(hrs), format(min), format(sec), format(ms)].join(":");
 ```
 
 **Reason for Change**
@@ -1099,7 +1102,7 @@ The original JavaScript used a `for...of` loop to display the calculated macro v
 
 ```javascript
 for (const macro of macros) {
-    output += `<li>${macro.name}: ${macro.grams.toFixed(1)}g</li>`;
+  output += `<li>${macro.name}: ${macro.grams.toFixed(1)}g</li>`;
 }
 ```
 
@@ -1109,11 +1112,7 @@ The loop was replaced with the `forEach()` array method:
 
 ```javascript
 macros.forEach(function (macro) {
-    output += "<li>" +
-    macro.name +
-    ": " +
-    macro.grams.toFixed(1) +
-    "g</li>";
+  output += "<li>" + macro.name + ": " + macro.grams.toFixed(1) + "g</li>";
 });
 ```
 
@@ -1126,7 +1125,7 @@ This allowed the calculator to continue displaying each macro result while impro
 The original JavaScript used:
 
 ```javascript
-isNaN(calories)
+isNaN(calories);
 ```
 
 JSLint recommended using the safer `Number.isNaN()` method.
@@ -1134,7 +1133,7 @@ JSLint recommended using the safer `Number.isNaN()` method.
 The code was updated to:
 
 ```javascript
-Number.isNaN(calories)
+Number.isNaN(calories);
 ```
 
 This improved input validation because `Number.isNaN()` specifically checks whether the value is actually the `NaN` data type. This prevents unexpected validation results when users enter calorie values.
@@ -1146,7 +1145,7 @@ This improved input validation because `Number.isNaN()` specifically checks whet
 The original code used template literals to create the macro result output:
 
 ```javascript
-`<li>${macro.name}: ${macro.grams.toFixed(1)}g</li>`
+`<li>${macro.name}: ${macro.grams.toFixed(1)}g</li>`;
 ```
 
 Although template literals are supported in modern JavaScript, they caused validation issues with the configured JSLint settings.
@@ -1154,11 +1153,7 @@ Although template literals are supported in modern JavaScript, they caused valid
 The code was changed to string concatenation:
 
 ```javascript
-"<li>" +
-macro.name +
-": " +
-macro.grams.toFixed(1) +
-"g</li>"
+"<li>" + macro.name + ": " + macro.grams.toFixed(1) + "g</li>";
 ```
 
 This produced the same output for the user while ensuring the JavaScript followed the required validation standards.
@@ -1204,8 +1199,7 @@ results.innerHTML = "<p>Please enter your calories and choose a goal.</p>";
 Updated formatting:
 
 ```javascript
-results.innerHTML =
-"<p>Please enter your calories and choose a goal.</p>";
+results.innerHTML = "<p>Please enter your calories and choose a goal.</p>";
 ```
 
 Long lines were split to improve:
@@ -1248,9 +1242,7 @@ These changes improved the overall quality of the JavaScript by making it more s
 
 ![Screenshot of JSLint Warning Message Pt1 (Nutrtion)](assets/images/testing/nutrition-js-error.png)
 
-
 ![Screenshot of JSLint Warning Message Pt2 (Nutrition)](assets/images/testing/nutrition-js-error2.png)
-
 
 ![Screenshot of JSLint Fixed (No errors - Nutrition)](assets/images/testing/nutrition-js-fixed.png)
 
@@ -1359,14 +1351,14 @@ Original code:
 
 ```javascript
 const timer = setInterval(() => {
-    seconds--;
+  seconds--;
 
-    countdown.textContent = seconds;
+  countdown.textContent = seconds;
 
-    if (seconds === 0) {
-        clearInterval(timer);
-        window.location.href = "index.html";
-    }
+  if (seconds === 0) {
+    clearInterval(timer);
+    window.location.href = "index.html";
+  }
 }, 1000);
 ```
 
@@ -1374,14 +1366,14 @@ Updated code:
 
 ```javascript
 function updateCountdown() {
-    seconds = seconds - 1;
+  seconds = seconds - 1;
 
-    countdown.textContent = seconds;
+  countdown.textContent = seconds;
 
-    if (seconds === 0) {
-        clearInterval(timer);
-        window.location.href = "index.html";
-    }
+  if (seconds === 0) {
+    clearInterval(timer);
+    window.location.href = "index.html";
+  }
 }
 ```
 
@@ -1429,7 +1421,7 @@ Updated code:
 
 ```javascript
 if (countdown) {
-    timer = setInterval(updateCountdown, 1000);
+  timer = setInterval(updateCountdown, 1000);
 }
 ```
 
@@ -1451,18 +1443,18 @@ var countdown = document.getElementById("countdown");
 var timer;
 
 function updateCountdown() {
-    seconds = seconds - 1;
+  seconds = seconds - 1;
 
-    countdown.textContent = seconds;
+  countdown.textContent = seconds;
 
-    if (seconds === 0) {
-        clearInterval(timer);
-        window.location.href = "index.html";
-    }
+  if (seconds === 0) {
+    clearInterval(timer);
+    window.location.href = "index.html";
+  }
 }
 
 if (countdown) {
-    timer = setInterval(updateCountdown, 1000);
+  timer = setInterval(updateCountdown, 1000);
 }
 ```
 
@@ -1479,17 +1471,14 @@ After these changes, the 404 page JavaScript:
 - Improved code readability and maintainability.
 - Followed stricter JavaScript coding standards required for validation.
 
-
 ![Screenshot of JSLint Warning Message Pt1 (404)](assets/images/testing/404-js-error.png)
-
 
 ![Screenshot of JSLint Warning Message Pt2 (404)](assets/images/testing/404-js-error2.png)
 
-
 ![Screenshot of JSLint Fixed (No errors - 404)](assets/images/testing/404-js-fixed.png)
 
-
 #### Lighthouse Testing (Accessibility)
+
 The website was tested using Google Lighthouse through Chrome DevTools to evaluate performance, accessibility, best practices, and SEO. The results scored strong, demonstrating that the website was optimised for usability, accessibility, and efficient loading. The screenshots below provides evidence of the Lighthouse testing results.
 
 **HOME SECTION**
@@ -1517,6 +1506,7 @@ Accessibility improvements implemented include:
 These improvements help ensure that users relying on assistive technologies can navigate and interact with the website more effectively.
 
 #### Responsiveness Testing
+
 To check responsiveness, the website was tested on a dev tools . This helped confirm that the layout, images and text display correctly and consistently across different screen sizes.
 
 ---
@@ -1529,20 +1519,22 @@ To check responsiveness, the website was tested on a dev tools . This helped con
 
 **MOBILE - Workout Section**
 
-
 ![Responsiveness on mobile workout](assets/images/testing/mobile-view-workout.png)
 
 ---
-**MOBILE-  Nurition Section**
+
+**MOBILE- Nurition Section**
 
 ![Responsiveness on mobile nutrition ](assets/images/testing/mobile-view-nutrition.png)
 
 ---
-**MOBILE-  404 Section**
+
+**MOBILE- 404 Section**
 
 ![Responsiveness on mobile 404 ](assets/images/testing/mobile-view-404.png)
 
 ---
+
 **MOBILE - Footer Section**
 
 ![Responsiveness on mobile 404 ](assets/images/testing/mobile-view-footer.png)
@@ -1557,20 +1549,21 @@ To check responsiveness, the website was tested on a dev tools . This helped con
 
 **TABLET - Workout Section**
 
-
 ![Responsiveness on tablet workout](assets/images/testing/tablet-view-workout.png)
 
 ---
-**TABLET-  Nurition Section**
+
+**TABLET- Nurition Section**
 
 ![Responsiveness on tablet nutrition ](assets/images/testing/tablet-view-nutrition.png)
 
 ---
-**TABLET-  404 Section**
+
+**TABLET- 404 Section**
 
 ![Responsiveness on tablet 404 ](assets/images/testing/tablet-view-404.png)
 
- —-
+—-
 **TABLET - Footer Section**
 
 ![Responsiveness on tablet 404 ](assets/images/testing/tablet-view-footer.png)
@@ -1585,20 +1578,22 @@ To check responsiveness, the website was tested on a dev tools . This helped con
 
 **DESKTOP - Workout Section**
 
-
 ![Responsiveness on desktop workout](assets/images/testing/desktop-view-workout.png)
 
 ---
-**DESKTOP-  Nurition Section**
+
+**DESKTOP- Nurition Section**
 
 ![Responsiveness on desktop nutrition ](assets/images/testing/desktop-view-nutrition.png)
 
 ---
-**DESKTOP-  404 Section**
+
+**DESKTOP- 404 Section**
 
 ![Responsiveness on desktop 404 ](assets/images/testing/desktop-view-404.png)
 
- ---
+---
+
 **DESKTOP - Footer Section**
 
 ![Responsiveness on desktop 404 ](assets/images/testing/desktop-view-footer.png)
@@ -1630,7 +1625,6 @@ Screenshots of the deployed live website are included at the end of this README 
 
 ### Keyboard Testing
 
-
 The website was tested using only keyboard controls to ensure that users who cannot use a mouse can still navigate and interact with the website effectively.
 
 The following keyboard tests were completed:
@@ -1647,7 +1641,6 @@ Evidence of keyboard testing is shown below:
 
 ![Screenshot of Navigation Keyboard Test](assets/images/testing/home-kb-test.png)
 
-
 ![Screenshot of CTA Keyboard Test](assets/images/testing/cta-kb-test.png)
 
 ![Screenshot of Stopwatch Keyboard Test](assets/images/testing/stw-kb-test.png)
@@ -1655,8 +1648,6 @@ Evidence of keyboard testing is shown below:
 ![Screenshot of Calculate Button Keyboard Test](assets/images/testing/cal-kb-test.png)
 
 ![Screenshot of Footer Keyboard Test](assets/images/testing/footer-kb-test.png)
-
-
 
 ## Bugs and Fixes
 
@@ -1671,6 +1662,7 @@ Evidence of keyboard testing is shown below:
 ![fixed-navbar-workout](assets/images/testing/navbar-workout-fixed.png)
 
 ---
+
 **Responsive issue fix (EVIDENCE)**
 | Page | Before Fixing | After Fixing | Code Modifications |
 | ---- | ------------- | ------------ | ------------------ |
@@ -1692,15 +1684,14 @@ The missing class (social network) was added to the footer HTML element, allowin
 
 ![fix-footer](assets/images/testing/footer-fix.png)
 
-
 **Final Bugs and Justification**
 
 All identified bugs were fixed to improve the overall functionality,layout and user experience of the website. Each issue was reviewed and traced back to its root cause such as incorrect html structure, incorrect css properties or typing errors within bootstrap classes. The necessary corrections were applied to ensure that the page elements displayed in the intended order, responsive layouts worked correctly and components aligned correctly across a variety of screen sizes. After, making these changes the website was tested again to confirm that the fixes were resolved and there were no remaining bugs affecting the user experience.
 
-
 ## Final Project Screenshots
 
 ### Homepage
+
 ![Screenshot of Homepage pt1](assets/images/final-project-sc/home-pt1.png)
 
 ![Screenshot of Homepage pt2](assets/images/final-project-sc/home-pt2.png)
@@ -1712,7 +1703,6 @@ All identified bugs were fixed to improve the overall functionality,layout and u
 **Note (Justification):** The **"Our Workout Programs"** heading is only visible in the final project screenshot because it was added as a last-minute design improvement after the previous screenshots had been taken. This enhancement improves the page structure, provides a clearer section heading for users, and supports accessibility by making the content easier to navigate. The earlier screenshots have been retained to accurately reflect the design at the time they were captured.
 
 ![Screenshot of Workout pt2](assets/images/final-project-sc/workout-pt2.png)
-
 
 ### Nutrition
 
@@ -1731,7 +1721,6 @@ All identified bugs were fixed to improve the overall functionality,layout and u
 ![Screenshot of 404](assets/images/final-project-sc/404.png)
 
 ## Project Structure
-
 
 ```text
 fitforge-fitness-app/
@@ -1763,6 +1752,7 @@ fitforge-fitness-app/
 ├── workout.html
 └── README.md
 ```
+
 ## External Resources
 
 The following external resources were used during the development of this project to support design decisions, implement functionality, and validate the final product:
@@ -1791,10 +1781,10 @@ Collectively, these resources contributed to the successful development, testing
 
 ## Credits
 
-
 All images used throughout the website, including the workout card images and the 404 error page image, were created by me using **ChatGPT Image Generation**. I created customised prompts and refined the generated images to ensure they matched the FitForge branding, fitness theme, and overall website design. The images were specifically created for this project to provide a consistent visual style across the website. No external stock images were used for these sections.
 
 ---
+
 ## References
 
 1. Akers, A., Barton, J., Cossey, R., Gainsford, P., Griffin, M. and Micklewright, D. (2012) ‘Visual Color Perception in Green Exercise: Positive Effects on Mood and Perceived Exertion’, Environmental Science & Technology, 46(16), pp. 8661–8666. Available at: https://pubs.acs.org/doi/10.1021/es301685g
@@ -1802,5 +1792,3 @@ All images used throughout the website, including the workout card images and th
 2. Bottomley, P.A. and Doyle, J.R. (2006) ‘The interactive effects of colors and products on perceptions of brand logo appropriateness’, Marketing Theory, 6(1), pp. 63–83. Available at: https://doi.org/10.1177/1470593106061263
 
 3. Lupton, E. and Phillips, J.C. (2015) Graphic Design: The New Basics. 2nd edn. New York: Princeton Architectural Press.
-
-

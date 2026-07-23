@@ -7,16 +7,16 @@ var countdown = document.getElementById("countdown");
 var timer;
 
 function updateCountdown() {
-    seconds = seconds - 1;
+  seconds = seconds - 1;
 
-    countdown.textContent = seconds;
+  countdown.textContent = seconds;
 
-    if (seconds === 0) {
-        clearInterval(timer);
-        window.location.href = "index.html";
-    }
+  if (seconds === 0) {
+    clearInterval(timer);
+    window.location.href = "index.html";
+  }
 }
 
 if (countdown) {
-    timer = setInterval(updateCountdown, 1000);
+  timer = setInterval(updateCountdown, 1000);
 }
