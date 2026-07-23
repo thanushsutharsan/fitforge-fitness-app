@@ -1699,11 +1699,34 @@ All identified bugs were fixed to improve the overall functionallity,layout and 
 
 
 ## Final Project Screenshots
+
 ### Homepage
+![Screenshot of Homepage pt1](assets/images/final-project-sc/home-pt1.png)
+
+![Screenshot of Homepage pt2](assets/images/final-project-sc/home-pt2.png)
 
 ### Workout
 
+![Screenshot of Workout pt1](assets/images/final-project-sc/workout-pt1.png)
+
+![Screenshot of Workout pt2](assets/images/final-project-sc/workout-pt2.png)
+
+
 ### Nutrition
+
+![Screenshot of Nutrition pt1](assets/images/final-project-sc/nutrition-pt1.png)
+
+![Screenshot of Nutrition pt2](assets/images/final-project-sc/nutrition-pt2.png)
+
+![Screenshot of Nutrition pt3](assets/images/final-project-sc/nutrition-pt3.png)
+
+![Screenshot of Nutrition pt4](assets/images/final-project-sc/nutrition-pt4.png)
+
+![Screenshot of Nutrition pt5](assets/images/final-project-sc/nutrition-pt5.png)
+
+### 404
+
+![Screenshot of 404](assets/images/final-project-sc/404.png)
 
 ## Project Structure
 
