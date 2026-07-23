@@ -61,7 +61,7 @@ Deployment steps:
 5. Save the changes to generate the live website URL.
 6. Open the deployed website and test that all pages, links, images and interactive features work correctly.
 
-## User Experience Design (UXD) 
+## User Experience Design (UXD)
 
 ### Overview
 This website is designed to help user improve their fitness and create healthy eating habits by providing a range of fitness and nutrition tools in one place to help support their health and fitness journey.
@@ -239,21 +239,21 @@ Overall, using the User-Centred Design approach meant that my decisions were bas
 
 | Findings from Instagram Reel | How it influenced my website |
 | ---------------------------- | ---------------------------- |
-| Many beginner fitness creators shared videos explianing how do I start my workout and how intimidating it can be. https://www.instagram.com/reel/DW9p393iNYF/?igsh=MW9lNGF5MzdsN2Rtdg== | I will use motivational langauge that is easy to understand with visual images to make it inclusive to all levels of people regardless of there experience | 
+| Many beginner fitness creators shared videos explianing how do I start my workout and how intimidating it can be. https://www.instagram.com/reel/DW9p393iNYF/?igsh=MW9lNGF5MzdsN2Rtdg== | I will use motivational langauge that is easy to understand with visual images to make it inclusive to all levels of people regardless of there experience |
 | A lot of comments on workout reels ask which exercises are best for weight loss or athlete training | I will implement a section on the homepage where users can select their fitness goal and a message will show what they need to work on. |
 | Many people discuss how they easily loose motivation and find it difficult to find workouts. | I will keep the website simple with clear naviagtion so users can quickly access information without feeling overwhelmed. I will also provide links with CTA buttons to youtube videos with key workout guides. |
 | Research on Instagram using the hashtags #fitness #fitnessinspiration comes up with and focusses on the ideal body  rather than how to get there.  https://www.instagram.com/reel/DZxtBs3vd-X/?igsh=c3BuM2x0NnR6bnFl | I will foccus my website on helping users achieve their own fitness goals rather than comparing themselves to unrealistic body standards. |
 
 #### Color Research
-Before creating the website, I researched color psychology, fitness website design and colour theory principles to identify color that would be suitable for both the purpose of the website and its target audience. I experimented with different color combinations using complementary and monochromatic colour palettes to find a scheme that balanced professionalism, readability and visual appeal. 
+Before creating the website, I researched color psychology, fitness website design and colour theory principles to identify color that would be suitable for both the purpose of the website and its target audience. I experimented with different color combinations using complementary and monochromatic colour palettes to find a scheme that balanced professionalism, readability and visual appeal.
 
-The final colors palette of black, lime green and white was selected because these colors work effectively together whilst reflecting the themes of health, fitness and motivation. 
+The final colors palette of black, lime green and white was selected because these colors work effectively together whilst reflecting the themes of health, fitness and motivation.
 
 - Lime green provides an energetic and positive appearance that is associated with wellbeing, growth and balance, with research suggesting that exposure to green environments can improve mood and reduce perceived exertion during exercise (Akers et al., 2012).
 
- - Black creates a modern and professional aesthetic commonly used by fitness brands, as darker colors are often associated with power, sophistication and authority in branding (Labrecque and Milne, 2012). 
- 
- - White improves readability and accessibility by creating contrast, reducing visual clutter and supporting a clean design layout, which are important principles in effective graphic design (Lupton and Phillips, 2015). 
+ - Black creates a modern and professional aesthetic commonly used by fitness brands, as darker colors are often associated with power, sophistication and authority in branding (Labrecque and Milne, 2012).
+
+ - White improves readability and accessibility by creating contrast, reducing visual clutter and supporting a clean design layout, which are important principles in effective graphic design (Lupton and Phillips, 2015).
 
  Using color theory principles allowed me to create a consistent visual identity across all pages whilst ensuring that important information remains easy for users to recognise and navigate.
 
@@ -361,7 +361,7 @@ The information cards will be implemented using a combination of Bootstrap’s r
 - Header: Logo and the naviagtion bar in the center on all devices.
 - Short-brief: Short description of the website.
     - CTA button: Start your Journey.
-- Why chose us section: Information cards 
+- Why chose us section: Information cards
 encouraging users to use the website.
 - Chose your fitness goal section: To make the website more interactive an personalised to the user.
    - CTA button : Lose weight & Athlete training.
@@ -412,7 +412,7 @@ Nutrition Wireframes
 - Use a consistent layout across all pages so that users have the same experience throughout the website. The header, navigation bar, colour scheme and footer will remain the same on each page, making the website feel organised and professional.
 The website will be fully responsive, allowing it to work on mobile phones, tablets and desktop computers.
 
-- Carefully position the call-to-action buttons so they are easy to find and use. 
+- Carefully position the call-to-action buttons so they are easy to find and use.
 
 - Design the navigation to be clear and straightforward so users can move between pages without confusion. The navigation bar will be available on every page, and page titles and headings will clearly show users where they are within the website.
 
@@ -467,7 +467,7 @@ The only typography change made during development was introducing the Orbitron 
 
 No further typography changes were required, as the original font choices successfully met the design requirements.
 
-#### Images and visuals 
+#### Images and visuals
 
 I will use high-quality fitness and nutrition images throughout my website to make the content more engaging and motivating for users. The visuals help users quickly understand the purpose of each section, such as workouts, healthy eating and fitness goals, without relying only on text.
 
@@ -518,7 +518,7 @@ Manual testing was particularly appropriate for FitForge because many of its fea
 
 #### Development Testing Table
 Development testing was carried out throughout the implementation stage of the project. Features were tested when being developed to ensure they functioned correctly before progressing on to the deployment stage. This interative approach allowed issues to be identified and resolved early in the development process. The website was tested to ensure:
- 
+
  - Navigation is simple and intuitive.
  - Buttons are clearly labelled.
  - Content is easy to read across all devices.
@@ -586,7 +586,434 @@ During CSS validation, an error was identified within the stopwatch styling. The
 ![CSS Validation Failed](assets/images/testing/css-validation-failed.png)
 
 ![CSS Validation Fixed](assets/images/testing/css-validation-fixed.png)
+
 #### JS Validation (JSLint)
+**HOMEPAGE**
+
+During development, the Goal Selector JavaScript functionality was updated to improve code quality and ensure the code passed JSLint validation.
+
+The following changes were made:
+
+- Added the `/*global document, localStorage*/` declaration at the top of the JavaScript file to allow JSLint to recognise browser-based objects used by the application.
+- Replaced arrow functions with standard `function ()` syntax because JSLint identified the arrow functions as too complex for this functionality.
+- Improved the indentation and spacing throughout the JavaScript file to follow consistent coding standards and meet JSLint formatting requirements.
+- Updated the `innerHTML` content generation by splitting long strings into smaller sections using string concatenation (`+`) to keep each line under the recommended 80-character limit.
+- Removed unnecessary trailing spaces and corrected formatting issues highlighted by the validator.
+- Kept the existing functionality unchanged, allowing users to select between the Weight Loss Programme and Athlete Performance Programme while storing their selected goal using `localStorage`.
+
+These improvements resulted in cleaner, more maintainable JavaScript code that follows validation standards while maintaining the original user experience.
+
+![Screenshot of JSLint Warning Message Pt1 (Home)](assets/images/testing/home-js-error.png)
+
+
+![Screenshot of JSLint Warning Message Pt2 (Home)](assets/images/testing/home-js-error2.png)
+
+
+![Screenshot of JSLint Fixed (No errors - Home)](assets/images/testing/home-js-fixed.png)
+
+**Workout Page Changes - JavaScript Stopwatch JSLint Improvements**
+
+During development of the FitForge workout page, the stopwatch JavaScript functionality was tested using JSLint to ensure the code followed JavaScript coding standards and best practices. The original stopwatch functionality was working correctly, including the start, stop, reset, and lap features. However, JSLint identified several code quality issues related to formatting, variable declarations, function structure, and coding style.
+
+The JavaScript was refactored step-by-step to resolve all validation errors and warnings while keeping the original stopwatch functionality unchanged.
+
+---
+
+**Global Variable Declaration**
+
+**Original Issue**
+
+JSLint reported undeclared browser variables:
+
+```
+Undeclared 'document'
+Undeclared 'setInterval'
+Undeclared 'clearInterval'
+```
+
+The original code used browser features such as:
+
+```javascript
+document.querySelector(".st");
+
+setInterval(function () {
+
+});
+
+clearInterval(startTimer);
+```
+
+JSLint did not recognise these as predefined variables.
+
+**Change Made**
+
+A global declaration was added at the beginning of the JavaScript file:
+
+```javascript
+/*global document, setInterval, clearInterval*/
+```
+
+**Reason for Change**
+
+This informs JSLint that these objects are provided by the browser environment and are intentionally being used. This removed undeclared variable errors while keeping the stopwatch functionality unchanged.
+
+---
+
+**Changing Single Quotes to Double Quotes**
+
+**Original Code**
+
+The original JavaScript used single quotation marks:
+
+```javascript
+const btnStart = document.querySelector('.st');
+
+const lap = document.createElement('div');
+
+lap.classList.add('lap');
+```
+
+**JSLint Error**
+
+```
+Use double quotes, not single quotes.
+```
+
+**Updated Code**
+
+All strings were changed to double quotation marks:
+
+```javascript
+const btnStart = document.querySelector(".st");
+
+const lap = document.createElement("div");
+
+lap.classList.add("lap");
+```
+
+**Reason for Change**
+
+JSLint requires consistent quotation formatting. Changing all strings to double quotes improved consistency and followed JavaScript style standards.
+
+---
+
+**Improving Conditional Statements**
+
+**Original Code**
+
+The original start button condition was written as:
+
+```javascript
+if (startTimer !== null) return;
+```
+
+**JSLint Error**
+
+```
+Expected '{' and instead saw 'return'.
+```
+
+**Updated Code**
+
+The condition was changed to:
+
+```javascript
+if (startTimer !== null) {
+    return;
+}
+```
+
+**Reason for Change**
+
+Adding curly braces improves readability and prevents possible errors if additional code is added inside the condition in the future.
+
+---
+
+**Removing Trailing Spaces**
+
+**Original Issue**
+
+JSLint detected unnecessary spaces at the end of lines:
+
+```
+Unexpected trailing space.
+```
+
+Example:
+
+```javascript
+if (startTimer !== null) {
+```
+
+**Updated Code**
+
+Changed to:
+
+```javascript
+if (startTimer !== null) {
+```
+
+**Reason for Change**
+
+Removing unnecessary whitespace keeps the code clean, consistent, and easier to maintain.
+
+---
+
+**Replacing Arrow Functions**
+
+**Original Code**
+
+The original event listeners used arrow functions:
+
+```javascript
+btnStart.addEventListener("click", () => {
+
+});
+```
+
+**JSLint Error**
+
+```
+Use 'function (...)', not '(...) =>'.
+```
+
+**Updated Code**
+
+Arrow functions were replaced with traditional functions:
+
+```javascript
+btnStart.addEventListener("click", function () {
+
+});
+```
+
+**Reason for Change**
+
+Traditional functions were used because JSLint identified the arrow functions as unsuitable for this section of code. This improved compatibility and maintained a consistent coding style.
+
+---
+
+**Replacing Increment Operators**
+
+**Original Code**
+
+The stopwatch timer used increment operators:
+
+```javascript
+ms++;
+
+sec++;
+
+min++;
+
+hrs++;
+```
+
+**JSLint Error**
+
+```
+Unexpected expression '++' in statement position.
+```
+
+**Updated Code**
+
+The values were changed to:
+
+```javascript
+ms += 1;
+
+sec += 1;
+
+min += 1;
+
+hrs += 1;
+```
+
+**Reason for Change**
+
+The `+= 1` syntax clearly explains that each value is increasing by one and follows JSLint recommendations for clearer code.
+
+---
+
+**Improving Function Structure and Scope**
+
+**Original Issue**
+
+JSLint reported:
+
+```
+'updateDisplay' is out of scope.
+'format' is out of scope.
+```
+
+This occurred because the functions were being used before they were correctly available.
+
+**Change Made**
+
+The helper functions were organised before the event listeners:
+
+```javascript
+const format = function (num) {
+    if (num < 10) {
+        return "0" + num;
+    }
+
+    return num;
+};
+
+const updateDisplay = function () {
+    hrsBox.innerText = format(hrs);
+    minBox.innerText = format(min);
+    secBox.innerText = format(sec);
+    msBox.innerText = format(ms);
+};
+```
+
+**Reason for Change**
+
+Moving these functions improved code organisation, reduced scope issues, and ensured the functions were available before being called.
+
+---
+
+**Changing Function Declaration Style**
+
+**Original Code**
+
+The original helper functions used:
+
+```javascript
+function format(num) {
+
+}
+
+function updateDisplay() {
+
+}
+```
+
+**JSLint Error**
+
+```
+Unexpected 'function'.
+```
+
+**Updated Code**
+
+The functions were changed into function expressions:
+
+```javascript
+const format = function (num) {
+
+};
+
+const updateDisplay = function () {
+
+};
+```
+
+**Reason for Change**
+
+This structure prevented JSLint validation issues and created a consistent coding style throughout the JavaScript file.
+
+---
+
+**Replacing the Ternary Operator**
+
+**Original Code**
+
+The formatting function used:
+
+```javascript
+return num < 10 ? "0" + num : num;
+```
+
+**JSLint Error**
+
+```
+Wrap a ternary expression in parens.
+```
+
+**Updated Code**
+
+The ternary operator was replaced with an if statement:
+
+```javascript
+if (num < 10) {
+    return "0" + num;
+}
+
+return num;
+```
+
+**Reason for Change**
+
+The if statement is easier to read, improves maintainability, and avoids unnecessary formatting issues while keeping the same functionality.
+
+---
+
+**Improving Lap Time Formatting**
+
+**Original Code**
+
+The lap time was created using string concatenation:
+
+```javascript
+const lapTime = format(hrs) + ":" +
+    format(min) + ":" +
+    format(sec) + ":" +
+    format(ms);
+```
+
+**JSLint Error**
+
+```
+Expected one space between '+' and ':'.
+```
+
+**Updated Code**
+
+The lap time was changed to use an array and `.join()`:
+
+```javascript
+const lapTime = [
+    format(hrs),
+    format(min),
+    format(sec),
+    format(ms)
+].join(":");
+```
+
+**Reason for Change**
+
+The `.join()` method creates cleaner code, removes formatting warnings, improves readability, and produces the same stopwatch output.
+
+---
+
+**Final Validation Result**
+
+After completing these improvements, the workout page stopwatch JavaScript successfully passed JSLint validation with:
+
+- No errors
+- No warnings
+- Improved code formatting
+- Consistent JavaScript standards
+- Better readability and maintainability
+
+The stopwatch functionality remained unchanged and continued to support:
+
+- Starting the timer
+- Pausing/stopping the timer
+- Resetting the timer
+- Recording lap times
+- Displaying formatted hours, minutes, seconds, and milliseconds
+
+These changes improved the overall quality of the workout page JavaScript while ensuring the code followed professional development standards.
+![Screenshot of JSLint Warning Message Pt1 (Workout)](assets/images/testing/workout-js-error.png)
+
+![Screenshot of JSLint Warning Message Pt2 (Workout)](assets/images/testing/workout-js-error2.png)
+
+![Screenshot of JSLint Fixed (No errors - Workout)](assets/images/testing/workout-js-fixed.png)
+
 
 #### Lighthouse Testing (Accessibility)
 The website was tested using Google Lighthouse through Chrome DevTools to evaluate performance, accessibility, best practices, and SEO. The results scored strong, demonstrating that the website was optimised for usability, accessibility, and efficient loading. The screenshots below provides evidence of the Lighthouse testing results.
@@ -639,17 +1066,17 @@ These improvements help ensure that users relying on assistive technologies can 
 | ---- | ------------- | ------------ | ------------------ |
 | Workout (Layout) | ![bug-workout-layout](assets/images/testing/workout-section-responsiveness-bug.png) | ![bug-fixed-workout](assets/images/testing/workout-fixed-section.png) | In workout.html, lines 51–55 were missing a closing div tag, which caused the page layout to display incorrectly. A closing div tag was added on line 56 to ensure the HTML structure was properly nested and to resolve the layout issue. This modification improves the page’s responsiveness and maintains the intended visual design across different screen sizes. |
 | Workout (Stopwatch) | ![bug-workout-stopwatch](assets/images/testing/stopwatch-bug.png) | ![bug-fixed-workout](assets/images/testing/stopwatch-bug-fixed.png) | In style.css, line 302 originally used flex-direction: column-reverse;, which caused the content within the stopwatch component to be displayed in the wrong order. As a result, the lap timings appeared above the timer instead of below it. This was amended to flex-direction: column; to reflect the intended design. The modification ensures that the timer is displayed first, followed by the lap timings, improving both the visual layout and the user experience. |
-| Nutrition | ![bug-nutrition](assets/images/testing/nutrition-card-bug.png) | ![bug-fixed-nutrition](assets/images/testing/nutrition-card-fixed.png) | In nutrition.html, the Bootstrap grid class was incorrectly written as coll-md-3 instead of col-md-3. This incorrect class prevented the Bootstrap grid system from applying correctly, causing the nutrition cards to be positioned incorrectly on the page. The class was amended to col-md-3 to restore the correct responsive column layout and ensure the cards display as intended across different screen sizes. | 
+| Nutrition | ![bug-nutrition](assets/images/testing/nutrition-card-bug.png) | ![bug-fixed-nutrition](assets/images/testing/nutrition-card-fixed.png) | In nutrition.html, the Bootstrap grid class was incorrectly written as coll-md-3 instead of col-md-3. This incorrect class prevented the Bootstrap grid system from applying correctly, causing the nutrition cards to be positioned incorrectly on the page. The class was amended to col-md-3 to restore the correct responsive column layout and ensure the cards display as intended across different screen sizes. |
 
 **Issue: Footer styling not applied correctly**
 
-Problem: 
+Problem:
 
 During testing, the footer design was not displaying as intended because the required CSS class was missing from the footer HTML element. This prevented the correct styling rules from being applied.
 
 ![bug-footer](assets/images/testing/footer-bug.png)
 
-Solution: 
+Solution:
 
 The missing class (social network) was added to the footer HTML element, allowing the CSS styling to target the footer correctly. The footer layout and design were then updated and retested to ensure consistency across all pages and screen sizes.
 
@@ -658,7 +1085,7 @@ The missing class (social network) was added to the footer HTML element, allowin
 
 **Final Bugs and Justification**
 
-All identified bugs were fixed to improve the overall functionallity,layout and user experience of the website. Each issue was reviewed and traced back to its root cause such as incorrect html structure, incorrect css properties or typing errors within bootstrap classes. The neccessary corrections were applied to ensure that the page elements displayed in the intended order, responsive layouts worked correctly and components alligned correctly across a variety of screen sizes. After, making these changes the website was tested again to confirm that the fixes were resolved and there were no remaining bugs affecting the user experience. 
+All identified bugs were fixed to improve the overall functionallity,layout and user experience of the website. Each issue was reviewed and traced back to its root cause such as incorrect html structure, incorrect css properties or typing errors within bootstrap classes. The neccessary corrections were applied to ensure that the page elements displayed in the intended order, responsive layouts worked correctly and components alligned correctly across a variety of screen sizes. After, making these changes the website was tested again to confirm that the fixes were resolved and there were no remaining bugs affecting the user experience.
 
 
 ## Final Project Screenshots
