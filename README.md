@@ -1517,6 +1517,99 @@ Accessibility improvements implemented include:
 These improvements help ensure that users relying on assistive technologies can navigate and interact with the website more effectively.
 
 #### Responsiveness Testing
+To check responsiveness, the website was tested on a dev tools . This helped confirm that the layout, images and text display correctly and consistently across different screen sizes.
+
+---
+
+**MOBILE - Home Section**
+
+![Responsiveness on mobile home ](assets/images/testing/mobile-view-home.png)
+
+---
+
+**MOBILE - Workout Section**
+
+
+![Responsiveness on mobile workout](assets/images/testing/mobile-view-workout.png)
+
+---
+**MOBILE-  Nurition Section**
+
+![Responsiveness on mobile nutrition ](assets/images/testing/mobile-view-nutrition.png)
+
+---
+**MOBILE-  404 Section**
+
+![Responsiveness on mobile 404 ](assets/images/testing/mobile-view-404.png)
+
+---
+**MOBILE - Footer Section**
+
+![Responsiveness on mobile 404 ](assets/images/testing/mobile-view-footer.png)
+
+---
+
+**TABLET - Home Section**
+
+![Responsiveness on tablet home ](assets/images/testing/tablet-view-home.png)
+
+---
+
+**TABLET - Workout Section**
+
+
+![Responsiveness on tablet workout](assets/images/testing/tablet-view-workout.png)
+
+---
+**TABLET-  Nurition Section**
+
+![Responsiveness on tablet nutrition ](assets/images/testing/tablet-view-nutrition.png)
+
+---
+**TABLET-  404 Section**
+
+![Responsiveness on tablet 404 ](assets/images/testing/tablet-view-404.png)
+
+ —-
+**TABLET - Footer Section**
+
+![Responsiveness on tablet 404 ](assets/images/testing/tablet-view-footer.png)
+
+--
+
+**DESKTOP - Home Section**
+
+![Responsiveness on desktop home ](assets/images/testing/desktop-view-home.png)
+
+---
+
+**DESKTOP - Workout Section**
+
+
+![Responsiveness on desktop workout](assets/images/testing/desktop-view-workout.png)
+
+---
+**DESKTOP-  Nurition Section**
+
+![Responsiveness on desktop nutrition ](assets/images/testing/desktop-view-nutrition.png)
+
+---
+**DESKTOP-  404 Section**
+
+![Responsiveness on desktop 404 ](assets/images/testing/desktop-view-404.png)
+
+ ---
+**DESKTOP - Footer Section**
+
+![Responsiveness on desktop 404 ](assets/images/testing/desktop-view-footer.png)
+
+To confirm that the website is fully responsive, the tool [Am I Responsive?](https://fireship.dev/amiresponsive) was used. The website was tested across a range of device sizes, including mobile, tablet, laptop, and desktop viewports. Testing confirmed that the layout, images, navigation, and text adapt correctly to different screen resolutions, providing a consistent and user-friendly experience across all devices.
+
+The layout, images and text all adapt correctly to different screen sizes without overlapping and breaking.
+
+![Responsiveness on all devices on Am I Responsive?](assets/images/testing/resposniveness-testing.png)
+
+Using both Chrome DevTools and Am I Responsive? provided two different forms of validation. Chrome DevTools supported the iterative testing process by enabling adjustments to be made during development, while Am I Responsive? served as a final verification tool to showcase the completed website across multiple device formats in a single view. Combining these methods demonstrates that responsiveness was not only implemented at the end of the project but was continuously considered and evaluated throughout the website’s development lifecycle.
 
 ### Deployment Testing
 
