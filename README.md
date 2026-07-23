@@ -1783,6 +1783,8 @@ The following external resources were used during the development of this projec
 
 - **[Am I Responsive?](https://fireship.dev/amiresponsive)** – Used as a final validation tool to demonstrate how the completed website appears across mobile, tablet, laptop, and desktop devices, providing visual evidence of responsive design implementation.
 
+- **[ChatGPT](https://chat.openai.com/)** – Used to create the custom images used throughout the website, including the workout card images and the 404 error page illustration. AI-generated imagery was used to support the visual design of the website and create original assets that matched the fitness theme and overall branding. All images created using ChatGPT were generated specifically for this project rather than sourced from external image libraries.
+
 Collectively, these resources contributed to the successful development, testing, and validation of the project, ensuring that both technical requirements and user experience expectations were met.
 
 ## Credits
