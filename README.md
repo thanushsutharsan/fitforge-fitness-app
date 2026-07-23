@@ -1254,6 +1254,241 @@ These changes improved the overall quality of the JavaScript by making it more s
 
 ![Screenshot of JSLint Fixed (No errors - Nutrition)](assets/images/testing/nutrition-js-fixed.png)
 
+**404 PAGE**
+
+The original 404 page redirect countdown JavaScript functioned correctly, but it failed JSLint validation due to strict coding standards. The code was updated to improve readability, variable management, scope control, and validation compliance while keeping the same 10-second countdown and automatic redirect functionality.
+
+**Original Code Issues**
+
+The original JavaScript produced several JSLint errors:
+
+- `Undeclared 'document'`
+- `Undeclared 'setInterval'`
+- `Undeclared 'clearInterval'`
+- `Undeclared 'window'`
+- `Use 'function (...)', not '(...) =>' when arrow functions become too complex`
+- `Unexpected expression '--' in statement position`
+- `'timer' is out of scope`
+- `Move variable declaration to top of function or script`
+
+The following changes were made to resolve these issues:
+
+---
+
+**1. Added JSLint Global Declarations**
+
+The original code used browser-based objects:
+
+```javascript
+const countdown = document.getElementById("countdown");
+```
+
+JSLint reported that `document`, `window`, `setInterval`, and `clearInterval` were undeclared because it did not recognise them as browser-provided variables.
+
+A global declaration was added at the top of the JavaScript file:
+
+```javascript
+/*global document, window, setInterval, clearInterval*/
+```
+
+This informs JSLint that these variables are available globally from the browser environment and prevents them from being incorrectly flagged as errors.
+
+---
+
+**2. Changed Variable Declarations from `let` and `const` to `var`**
+
+Original code:
+
+```javascript
+let seconds = 10;
+
+const countdown = document.getElementById("countdown");
+```
+
+Updated code:
+
+```javascript
+var seconds = 10;
+var countdown = document.getElementById("countdown");
+var timer;
+```
+
+The variable declarations were changed from `let` and `const` to `var` to meet the JSLint rules configured for this project.
+
+The variables were also moved to the top of the script because JSLint requires variable declarations to be placed before executable code. This improves consistency and makes the variable scope easier to understand.
+
+---
+
+**3. Moved the Timer Variable Declaration**
+
+Original code:
+
+```javascript
+const timer = setInterval(() => {
+```
+
+JSLint reported:
+
+```
+'timer' is out of scope
+```
+
+The timer variable was declared before the function:
+
+```javascript
+var timer;
+```
+
+The timer is then assigned after the function has been created:
+
+```javascript
+timer = setInterval(updateCountdown, 1000);
+```
+
+This ensures that `timer` is available inside the `updateCountdown()` function when the interval needs to be stopped:
+
+```javascript
+clearInterval(timer);
+```
+
+---
+
+**4. Replaced the Arrow Function with a Named Function**
+
+Original code:
+
+```javascript
+const timer = setInterval(() => {
+    seconds--;
+
+    countdown.textContent = seconds;
+
+    if (seconds === 0) {
+        clearInterval(timer);
+        window.location.href = "index.html";
+    }
+}, 1000);
+```
+
+Updated code:
+
+```javascript
+function updateCountdown() {
+    seconds = seconds - 1;
+
+    countdown.textContent = seconds;
+
+    if (seconds === 0) {
+        clearInterval(timer);
+        window.location.href = "index.html";
+    }
+}
+```
+
+The arrow function was replaced with a named function called `updateCountdown()`.
+
+This was changed because JSLint reported that the arrow function had become too complex. Separating the countdown logic into its own function improves code readability, structure, and maintainability.
+
+---
+
+**5. Replaced the Decrement Operator**
+
+Original code:
+
+```javascript
+seconds--;
+```
+
+Updated code:
+
+```javascript
+seconds = seconds - 1;
+```
+
+JSLint reported:
+
+```
+Unexpected expression '--' in statement position
+```
+
+The decrement operator was replaced with a full assignment expression. This follows JSLint's preference for clearer statements and avoids potential issues caused by standalone increment or decrement operators.
+
+---
+
+**6. Updated the Timer Setup**
+
+Original code:
+
+```javascript
+const timer = setInterval(() => {
+    ...
+}, 1000);
+```
+
+Updated code:
+
+```javascript
+if (countdown) {
+    timer = setInterval(updateCountdown, 1000);
+}
+```
+
+The timer setup was changed so that it calls the `updateCountdown()` function every second.
+
+The existing `if (countdown)` check was kept to ensure the script only runs when the countdown element exists. This prevents JavaScript errors on pages where the countdown element is not present.
+
+---
+
+**Final JSLint Passing Version**
+
+```javascript
+/*global document, window, setInterval, clearInterval*/
+
+// 404 page automatic redirect countdown
+
+var seconds = 10;
+var countdown = document.getElementById("countdown");
+var timer;
+
+function updateCountdown() {
+    seconds = seconds - 1;
+
+    countdown.textContent = seconds;
+
+    if (seconds === 0) {
+        clearInterval(timer);
+        window.location.href = "index.html";
+    }
+}
+
+if (countdown) {
+    timer = setInterval(updateCountdown, 1000);
+}
+```
+
+---
+
+**Final Result**
+
+After these changes, the 404 page JavaScript:
+
+- Passed JSLint validation successfully.
+- Maintained the original 10-second countdown functionality.
+- Continued automatically redirecting users to `index.html`.
+- Improved variable scope management.
+- Improved code readability and maintainability.
+- Followed stricter JavaScript coding standards required for validation.
+
+
+![Screenshot of JSLint Warning Message Pt1 (404)](assets/images/testing/404-js-error.png)
+
+
+![Screenshot of JSLint Warning Message Pt2 (404)](assets/images/testing/404-js-error2.png)
+
+
+![Screenshot of JSLint Fixed (No errors - 404)](assets/images/testing/404-js-fixed.png)
+
+
 #### Lighthouse Testing (Accessibility)
 The website was tested using Google Lighthouse through Chrome DevTools to evaluate performance, accessibility, best practices, and SEO. The results scored strong, demonstrating that the website was optimised for usability, accessibility, and efficient loading. The screenshots below provides evidence of the Lighthouse testing results.
 
