@@ -1709,6 +1709,28 @@ All identified bugs were fixed to improve the overall functionallity,layout and 
 
 ## External Resources
 
+The following external resources were used during the development of this project to support design decisions, implement functionality, and validate the final product:
+
+- **[Google Fonts](https://fonts.google.com/)** – Used to implement the Teko font family throughout the website, improving readability and creating a consistent visual identity that aligns with the fitness theme of the project.
+
+- **[Font Awesome](https://fontawesome.com/)** – Used to incorporate scalable vector icons across the website, enhancing the user interface and providing visual cues for navigation and content sections.
+
+- **[Coolors](https://coolors.co/)** – Used during the planning stage to develop a cohesive colour palette. This ensured colour consistency throughout the website while supporting accessibility and maintaining a modern fitness-inspired aesthetic.
+
+- **[W3C HTML Validator](https://validator.w3.org/)** – Used to validate all HTML files and identify syntax errors or structural issues. This helped ensure that the website adheres to web standards and follows best practices.
+
+- **[W3C CSS Validator](https://jigsaw.w3.org/css-validator/)** – Used to validate the CSS stylesheet to confirm that all styling rules were correctly implemented and complied with current CSS standards.
+
+- **[JSLint](https://www.jslint.com/)** – Used to analyse JavaScript code quality and identify potential issues relating to syntax, variable scope, and coding conventions. Any errors identified were resolved to improve maintainability and code reliability.
+
+- **[Google Lighthouse](https://developer.chrome.com/docs/lighthouse/overview)** – Used to evaluate the website's performance, accessibility, best practices, and SEO. Lighthouse reports provided evidence that the website meets modern web development standards.
+
+- **[Chrome DevTools](https://developer.chrome.com/docs/devtools/)** – Used extensively throughout development for debugging, inspecting elements, testing responsiveness, and monitoring website behaviour in real time.
+
+- **[Am I Responsive?](https://fireship.dev/amiresponsive)** – Used as a final validation tool to demonstrate how the completed website appears across mobile, tablet, laptop, and desktop devices, providing visual evidence of responsive design implementation.
+
+Collectively, these resources contributed to the successful development, testing, and validation of the project, ensuring that both technical requirements and user experience expectations were met.
+
 ## Credits
 ---
 ## References
