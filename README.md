@@ -1709,6 +1709,8 @@ All identified bugs were fixed to improve the overall functionality,layout and u
 
 ![Screenshot of Workout pt1](assets/images/final-project-sc/workout-pt1.png)
 
+**Note (Justification):** The **"Our Workout Programs"** heading is only visible in the final project screenshot because it was added as a last-minute design improvement after the previous screenshots had been taken. This enhancement improves the page structure, provides a clearer section heading for users, and supports accessibility by making the content easier to navigate. The earlier screenshots have been retained to accurately reflect the design at the time they were captured.
+
 ![Screenshot of Workout pt2](assets/images/final-project-sc/workout-pt2.png)
 
 
