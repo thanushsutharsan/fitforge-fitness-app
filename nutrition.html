@@ -56,7 +56,7 @@
           <input type="number" id="calories" class="form-control mb-3" />
 
           <label for="goal" class="form-label">Your Fitness Goal</label>
-          <select id="goal" class="form-select mb-3">
+          <select id="goal" class="form-select mb-3" aria-describedby="goal-help">
             <option value="">Select Goal</option>
             <option value="loss">Weight Loss</option>
             <option value="maintain">Maintain Weight</option>
@@ -67,7 +67,7 @@
             Calculate
           </button>
 
-          <div id="results" class="mt-4" aria-live="polite"></div>
+          <div id="results" class="mt-4" aria-live="polite" aria-atomic="true"></div>
         </div>
       </div>
     </section>
