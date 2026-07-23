@@ -611,7 +611,7 @@ These improvements resulted in cleaner, more maintainable JavaScript code that f
 
 ![Screenshot of JSLint Fixed (No errors - Home)](assets/images/testing/home-js-fixed.png)
 
-**Workout Page Changes - JavaScript Stopwatch JSLint Improvements**
+**WORKOUT**
 
 During development of the FitForge workout page, the stopwatch JavaScript functionality was tested using JSLint to ensure the code followed JavaScript coding standards and best practices. The original stopwatch functionality was working correctly, including the start, stop, reset, and lap features. However, JSLint identified several code quality issues related to formatting, variable declarations, function structure, and coding style.
 
@@ -1014,6 +1014,245 @@ These changes improved the overall quality of the workout page JavaScript while 
 
 ![Screenshot of JSLint Fixed (No errors - Workout)](assets/images/testing/workout-js-fixed.png)
 
+**NUTRITION**
+
+During development, the Macronutrient Calculator JavaScript functionality was tested using **JSLint** to ensure the code followed consistent coding standards and best practices. The original JavaScript was fully functional; however, JSLint identified several validation errors relating to variable declarations, loop methods, formatting, syntax, and code structure.
+
+The JavaScript was refactored to resolve all JSLint errors while maintaining the original functionality of the calculator. These improvements made the code more structured, readable, maintainable, and compliant with professional coding standards.
+
+---
+
+**Variable Declaration Improvements**
+
+The original JavaScript used `const` declarations:
+
+```javascript
+const calculateButton = document.getElementById("calculate-btn");
+```
+
+JSLint returned an error because the project configuration required the use of `let` declarations instead of `const`.
+
+The variable declarations were updated to:
+
+```javascript
+let calculateButton = document.getElementById("calculate-btn");
+```
+
+All variables throughout the JavaScript file were updated to use `let` to meet the JSLint requirements.
+
+The variables updated included:
+
+- `calculateButton`
+- `caloriesInput`
+- `goalInput`
+- `results`
+- `calories`
+- `goal`
+- `carbPercent`
+- `proteinPercent`
+- `fatPercent`
+- `macros`
+- `output`
+
+This change allowed variables to be reassigned when required while ensuring the code followed the validation rules.
+
+---
+
+**Variable Declaration Positioning**
+
+JSLint required variable declarations to be placed at the beginning of the function rather than being declared when first needed.
+
+Originally, variables were declared alongside their values:
+
+```javascript
+const calories = Number(caloriesInput.value);
+```
+
+This caused a JSLint validation error because the declaration was not positioned at the top of the function.
+
+The code was changed by declaring variables first:
+
+```javascript
+let calories;
+let goal;
+let carbPercent;
+let proteinPercent;
+let fatPercent;
+let macros;
+let output;
+```
+
+The values were then assigned afterwards:
+
+```javascript
+calories = Number(caloriesInput.value);
+goal = goalInput.value;
+```
+
+This improved the organisation of the function and made the code easier to read and maintain.
+
+---
+
+**Replacing Unsupported Loop Methods**
+
+The original JavaScript used a `for...of` loop to display the calculated macro values:
+
+```javascript
+for (const macro of macros) {
+    output += `<li>${macro.name}: ${macro.grams.toFixed(1)}g</li>`;
+}
+```
+
+JSLint returned an error because the configured validation rules did not support the `for...of` loop syntax.
+
+The loop was replaced with the `forEach()` array method:
+
+```javascript
+macros.forEach(function (macro) {
+    output += "<li>" +
+    macro.name +
+    ": " +
+    macro.grams.toFixed(1) +
+    "g</li>";
+});
+```
+
+This allowed the calculator to continue displaying each macro result while improving compatibility with the validation tool.
+
+---
+
+**Improving Number Validation**
+
+The original JavaScript used:
+
+```javascript
+isNaN(calories)
+```
+
+JSLint recommended using the safer `Number.isNaN()` method.
+
+The code was updated to:
+
+```javascript
+Number.isNaN(calories)
+```
+
+This improved input validation because `Number.isNaN()` specifically checks whether the value is actually the `NaN` data type. This prevents unexpected validation results when users enter calorie values.
+
+---
+
+**Removing Template Literals**
+
+The original code used template literals to create the macro result output:
+
+```javascript
+`<li>${macro.name}: ${macro.grams.toFixed(1)}g</li>`
+```
+
+Although template literals are supported in modern JavaScript, they caused validation issues with the configured JSLint settings.
+
+The code was changed to string concatenation:
+
+```javascript
+"<li>" +
+macro.name +
+": " +
+macro.grams.toFixed(1) +
+"g</li>"
+```
+
+This produced the same output for the user while ensuring the JavaScript followed the required validation standards.
+
+---
+
+**Object Structure Improvements**
+
+The original macro objects stored properties in this order:
+
+```javascript
+{
+    name: "Protein",
+    grams: value
+}
+```
+
+JSLint required object properties to be ordered differently.
+
+The objects were updated to:
+
+```javascript
+{
+    grams: value,
+    name: "Protein"
+}
+```
+
+This change did not affect the functionality of the calculator but improved consistency and allowed the code to successfully pass validation.
+
+---
+
+**Line Length and Formatting Improvements**
+
+JSLint identified several lines that exceeded the recommended maximum line length.
+
+Original formatting:
+
+```javascript
+results.innerHTML = "<p>Please enter your calories and choose a goal.</p>";
+```
+
+Updated formatting:
+
+```javascript
+results.innerHTML =
+"<p>Please enter your calories and choose a goal.</p>";
+```
+
+Long lines were split to improve:
+
+- Code readability
+- Maintainability
+- Consistent formatting
+- Compliance with JSLint standards
+
+---
+
+**Removing Trailing Spaces**
+
+JSLint detected unnecessary trailing spaces throughout the JavaScript file.
+
+These were removed to improve code cleanliness and prevent unnecessary formatting-related validation errors.
+
+Additional formatting improvements included:
+
+- Removing unnecessary whitespace
+- Correcting indentation
+- Maintaining consistent spacing around operators
+- Improving overall readability
+
+---
+
+**Final Outcome**
+
+After completing these improvements, the Macronutrient Calculator JavaScript successfully passed JSLint validation.
+
+The functionality remained unchanged and continues to provide:
+
+- User calorie input validation
+- Fitness goal selection
+- Automatic carbohydrate, protein, and fat calculations
+- Dynamic results displayed on the page
+- Error messages for invalid user input
+
+These changes improved the overall quality of the JavaScript by making it more structured, readable, maintainable, and compliant with professional coding standards.
+
+![Screenshot of JSLint Warning Message Pt1 (Nutrtion)](assets/images/testing/nutrition-js-error.png)
+
+
+![Screenshot of JSLint Warning Message Pt2 (Nutrition)](assets/images/testing/nutrition-js-error2.png)
+
+
+![Screenshot of JSLint Fixed (No errors - Nutrition)](assets/images/testing/nutrition-js-fixed.png)
 
 #### Lighthouse Testing (Accessibility)
 The website was tested using Google Lighthouse through Chrome DevTools to evaluate performance, accessibility, best practices, and SEO. The results scored strong, demonstrating that the website was optimised for usability, accessibility, and efficient loading. The screenshots below provides evidence of the Lighthouse testing results.
