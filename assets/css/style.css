@@ -101,6 +101,12 @@ nav a.active::after {
   width: 100%;
 }
 
+/* Navbar active*/
+
+.active {
+  border-bottom: 3px solid #0e0a0a;
+}
+
 /* glass effect for feature cards */
 
 .hero-content,
