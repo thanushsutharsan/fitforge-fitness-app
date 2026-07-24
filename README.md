@@ -2,14 +2,14 @@
 
 ## Description
 
-This website is designed to support users who want to improve their fitness and maintain a healthier lifestyle. It provides a range of tools and resources to help users time their workouts, make healthier nutritional choices and discover new exercises. This website is developed for people who want to improve their overall health, stay active, and build healthy habits through easy to use fitness and nutritional features.
+This website is designed to support users who want to improve their fitness and maintain a healthier lifestyle. It provides a range of tools and resources to help users time their workouts, make healthier nutritional choices and discover new exercises. This website is developed for people who want to improve their overall health, stay active, and build healthy habits through easy-to-use fitness and nutritional features.
 
 ## Technologies Used
 
 - HTML
 - CSS
 - JavaScript
-- BootStrap
+- Bootstrap
 - Git/Github
 - VsCode
 
@@ -107,7 +107,7 @@ _Frequent Visitor_
 
 ---
 
-**Athlete OR Sports Users**
+**Athletes OR Sports Users**
 
 _First Time Visitor..._
 
@@ -244,7 +244,7 @@ To make sure my website was designed around the needs of real users, I followed 
 
 From my research, I noticed that a lot of beginners didn’t know where to start, found it hard to stay motivated, or weren’t sure which exercises were right for them. I also saw that many people felt overwhelmed because there is so much fitness advice online, and not all of it is relevant to their goals. I found that athletes and sports users had different needs too, as they were more focused on improving performance rather than losing weight.
 
-This research helped me make decisions about how to my website. One feature I added was a fitness goal question where users choose either “I want to lose weight” or “Athlete/Sports User.” Depending on what they choose, they are shown a message relevant to their goals. This makes the website feel more personalised and helps users find what they need much quicker.
+This research helped me make decisions about how to design my website. One feature I added was a fitness goal question where users choose either “I want to lose weight” or “Athlete/Sports User.” Depending on what they choose, they are shown a message relevant to their goals. This makes the website feel more personalised and helps users find what they need much quicker.
 
 The research also influenced the layout of my website. I kept the design simple, with clear headings, easy navigation, and straightforward information so users wouldn’t feel overwhelmed. My aim was to make the website easy to use for both beginners and more experienced users.
 
@@ -255,7 +255,7 @@ Overall, using the User-Centred Design approach meant that my decisions were bas
 | Many beginner fitness creators shared videos explaining how do I start my workout? and how intimidating it can be. https://www.instagram.com/reel/DW9p393iNYF/?igsh=MW9lNGF5MzdsN2Rtdg==                        | I will use motivational language that is easy to understand with visual images to make it inclusive to all levels of people regardless of their experience                                                      |
 | A lot of comments on workout reels ask which exercises are best for weight loss or athlete training                                                                                                             | I will implement a section on the homepage where users can select their fitness goal and a message will show what they need to work on.                                                                         |
 | Many people discuss how they easily lose motivation and find it difficult to find workouts.                                                                                                                     | I will keep the website simple with clear navigation so users can quickly access information without feeling overwhelmed. I will also provide links with CTA buttons to youtube videos with key workout guides. |
-| Research on Instagram using the hashtags #fitness #fitnessinspiration comes up with and focus on the ideal body rather than how to get there. https://www.instagram.com/reel/DZxtBs3vd-X/?igsh=c3BuM2x0NnR6bnFl | I will foccus my website on helping users achieve their own fitness goals rather than comparing themselves to unrealistic body standards.                                                                       |
+| Research on Instagram using the hashtags #fitness #fitnessinspiration comes up with and focus on the ideal body rather than how to get there. https://www.instagram.com/reel/DZxtBs3vd-X/?igsh=c3BuM2x0NnR6bnFl | I will focus my website on helping users achieve their own fitness goals rather than comparing themselves to unrealistic body standards.                                                                       |
 
 #### Color Research
 
@@ -277,7 +277,7 @@ Using color theory principles allowed me to create a consistent visual identity 
 
 #### Target Audience
 
-This website is for individuals who are interested in improving their fitness health and overall lifestyle. This ranges from beginners who are starting their fitness journey and need tools to guide them, to regular gym members and athletes who want to improve performance it is also suitable for people who are focused on nutrition and want to maintain a balanced diet. Overall, the website is designed for anyone looking for an easy an accessible way to combine workout training , monitoring and nutritional support in one place.
+This website is for individuals who are interested in improving their fitness, health and overall lifestyle. This ranges from beginners who are starting their fitness journey and need tools to guide them, to regular gym members and athletes who want to improve performance. It is also suitable for people who are focused on nutrition and want to maintain a balanced diet. Overall, the website is designed for anyone looking for an easy and accessible way to combine workout training , monitoring and nutritional support in one place.
 
 Although my website is designed for two different target audiences, it provides a personalised experience for both. When users first visit the website, they are asked “Who are you?” and can choose either people looking to Lose Weight or Athletes/Sports users. Using JavaScript, the website displays a message explaining the type of programme that best matches their chosen goal and stores their selection using localStorage. The macronutrient calculator also asks users about their fitness goal before providing recommendations. These features help ensure that the information users receive is relevant to their individual needs, making the website more user-centred and suitable for both target audiences.
 
@@ -287,20 +287,20 @@ The content of the website is relevant appropriate as it provides users with use
 
 #### Problems and Solutions
 
-One of the problems users face when trying to improve thier fitness is not knowing where to start. Many people struggle to find reliable workout guidance, understand the nutritional needs or stay motivated to maintain a healthier lifestyle.
+One of the problems users face when trying to improve their fitness is not knowing where to start. Many people struggle to find reliable workout guidance, understand the nutritional needs or stay motivated to maintain a healthier lifestyle.
 
 To solve this, I developed this website to provide users with accessible fitness and nutritional rescources in one place. The website offers workout guidance, a stopwatch to help time exercise intervals, a macronutrient calculator, nutrition tips and meal inspiration making it easier for users to begin and stay consistent with their health and fitness journey.
 
-#### Buisness Goals
+#### Business Goals
 
-The key goal of the website is to encourage users to improve thier fitness and nutrition by providing easy to use tools, workout rescources and healthy lifestyle guidance. It aims to help users stay motivated, build consistent habits and make informed decisions about their health and well-being.
+The key goal of the website is to encourage users to improve their fitness and nutrition by providing easy to use tools, workout rescources and healthy lifestyle guidance. It aims to help users stay motivated, build consistent habits and make informed decisions about their health and well-being.
 
 #### User Needs
 
-- Users should be able to navigate easily between the Home,Workouts and Nutrition pages.
+- Users should be able to navigate easily between the Home, Workouts and Nutrition pages.
 - Users need the website to work effectively across desktops, tablets and mobile devices.
-- Users should be able to quickly access workouts,nutrition, information and fitness tools without feeling overwhemled.
-- Users needs a simple, user freindly interface that makes it easy to stay engaged and motivated throughout the fitness journey.
+- Users should be able to quickly access workouts,nutrition, information and fitness tools without feeling overwhelmed.
+- Users needs a simple, user friendly interface that makes it easy to stay engaged and motivated throughout the fitness journey.
 
 ---
 
@@ -308,7 +308,7 @@ The key goal of the website is to encourage users to improve thier fitness and n
 
 #### MVP (Minimum Viable Product)
 
-- Must have a Homepage with a hero section, navigation bar and clear CTA buttons linking to workouts and nutrition pages, aswell as get started button linked to a google form .(Home)
+- Must have a Homepage with a hero section, navigation bar and clear CTA buttons linking to workouts and nutrition pages, as well as get started button linked to a google form .(Home)
 - Must have a workout page that includes a built in stop watch with a lap button and images of different muscle groups with each image linking to relevant workout routine videos. (Workout)
 - Must have a nutrition page featuring a Macronutrient calculator, key nutrition facts, healthy meal inspirations for breakfast, lunch and dinner and tips to help users optimise their nutrition. (Nutrition)
 - Must have a footer at the bottom of every page containing social media links with copyright information. (Footer)
@@ -318,7 +318,7 @@ The key goal of the website is to encourage users to improve thier fitness and n
 
 #### Further Developments
 
-- Add Personalised workout plans based on the users fitness goals and experience levels
+- Add Personalised workout plans based on the users' fitness goals and experience levels
 - Introduce Progress tracking so users can monitor progress overtime.
 
 ---
@@ -335,7 +335,7 @@ During the development process, a custom 404 error page was added after the init
 
 - Homepage (index.html) - Logo, Hero section, website introduction, Start your Journey CTA button, why choose FitForge Section and choose your fitness goal section.
 - Workout (workout.html) - A built in stopwatch, images of different muscle groups and links to workout for each muscle groups.
-- Nutrition (nutrition.html) - A macronutrient calculator, nutrition facts, healthy meal inspiration and tips help users optimise their nutrtion.
+- Nutrition (nutrition.html) - A macronutrient calculator, nutrition facts, healthy meal inspiration and tips to help users optimise their nutrtion.
 - Footer - Social media links and copyright information.
 
 #### User Flow
@@ -358,7 +358,7 @@ Wireframes were used to plan each page and give clear visual structure before cr
 
 - Changes will be recorded with screenshots during the testing stage to show improvements from the original wireframe design.
 
-**WireFrame Justification**
+**Wireframe Justification**
 
 The **HOME** and **WORKOUT** pages contain a relatively small number of information cards, allowing their intended layout to be accurately represented within the wireframes. This provides a clear indication of how the content will be presented to users.
 
@@ -385,9 +385,9 @@ Homepage Wireframes
 - Header: Logo and the navigation bar in the center on all devices.
 - Short-brief: Short description of the website.
   - CTA button: Start your Journey.
-- Why chose us section: Information cards
+- Why choose us section: Information cards
   encouraging users to use the website.
-- Chose your fitness goal section: To make the website more interactive a personalised to the user.
+- Choose your fitness goal section: To make the website more interactive and personalised to the user.
   - CTA button : Lose weight & Athlete training.
 - Footer: Social media links and copyright information.
 
@@ -446,12 +446,12 @@ Nutrition Wireframes
 
 ### V. Surface
 
-#### Color Scheme
+#### Colour Scheme
 
-Color Palette Summary
+Colour Palette Summary
 
-- Primary colors : Black, White + Lime Green (#BEE21F).
-- Supporting colors : Bright greens (#E8FC0B) ,(#CCE83D) (#EDF467) + Grey tones.
+- Primary colours : Black, White + Lime Green (#BEE21F).
+- Supporting colours : Bright greens (#E8FC0B) ,(#CCE83D) (#EDF467) + Grey tones.
 - Design style created: Modern, energetic, professional fitness branding, with strong contrast and accessibility.
 
 ![color-palette](assets/images/color-palette.png)
@@ -496,7 +496,7 @@ No further typography changes were required, as the original font choices succes
 
 I will use high-quality fitness and nutrition images throughout my website to make the content more engaging and motivating for users. The visuals help users quickly understand the purpose of each section, such as workouts, healthy eating and fitness goals, without relying only on text.
 
-I will use alt text to all images to improve accessibility. This allows screen readers to describe the images to visually impaired users and also provides alternative text if an image fails to load.
+I will use alt text for all images to improve accessibility. This allows screen readers to describe the images to visually impaired users and also provides alternative text if an image fails to load.
 
 I will use icons and visual cards to break up information into smaller sections, making the website easier to scan and navigate. This creates a cleaner layout, improves the overall user experience and keeps users engaged while exploring the website.
 
@@ -504,7 +504,7 @@ I will use icons and visual cards to break up information into smaller sections,
 
 I will use animations and hover effects throughout my website to make it feel more interactive and engaging for users. Buttons, navigation links and cards will respond when users interact with them, providing clear visual feedback and improving the overall user experience.
 
-Call-to-action buttons will initially use the primary lime green colour and will change to white when hovered over, making it clear that they are interactive elements. Navigation links will also include subtle hover effects to help users identify their current selection more easily Additionally, information cards will slightly move when hovered over to make the website feel more responsive whilst maintaining a professional appearance.
+Call-to-action buttons will initially use the primary lime green colour and will change to white when hovered over, making it clear that they are interactive elements. Navigation links will also include subtle hover effects to help users identify their current selection more easily. Additionally, information cards will slightly move when hovered over to make the website feel more responsive whilst maintaining a professional appearance.
 
 These animations and effects will improve both the functionality and visual appeal of FitForge whilst remaining simple, consistent and easy for users to understand.
 
@@ -553,7 +553,7 @@ Development testing was carried out throughout the implementation stage of the p
 
 | Feature Tested           | Testing Procedure                         | Expected Results                                           | Actual Result                                                                                       | Pass/Fail | Solution                                                                                                                                                                         |
 | ------------------------ | ----------------------------------------- | ---------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Navigation Menu          | Click navigation links                    | Nav-links should navigate to the correct sections          | Workout Navigation is broken                                                                        | **FAIL**  | change the navigation link from workouts.html to workout.html (spelling error)                                                                                                   |
+| Navigation Menu          | Click navigation links                    | Nav links should navigate to the correct sections          | Workout Navigation is broken                                                                        | **FAIL**  | change the navigation link from workouts.html to workout.html (spelling error)                                                                                                   |
 | Goal Selector            | Select different fitness goals            | Selected goal should display correctly                     | Goal was successfully displayed                                                                     | **PASS**  | N/a                                                                                                                                                                              |
 | Workout Stopwatch        | Test start/stop/lap/reset buttons         | Stopwatch should perform each function correctly           | All stopwatch functions worked as expected                                                          | **PASS**  | N/a                                                                                                                                                                              |
 | Macronutrient Calculator | Enter user details                        | Calculator should return correct macronutrient values      | Calculator displayed accurate results and rejected invalid inputs                                   | **PASS**  | N/a                                                                                                                                                                              |
@@ -1240,7 +1240,7 @@ The functionality remained unchanged and continues to provide:
 
 These changes improved the overall quality of the JavaScript by making it more structured, readable, maintainable, and compliant with professional coding standards.
 
-![Screenshot of JSLint Warning Message Pt1 (Nutrtion)](assets/images/testing/nutrition-js-error.png)
+![Screenshot of JSLint Warning Message Pt1 (Nutrition)](assets/images/testing/nutrition-js-error.png)
 
 ![Screenshot of JSLint Warning Message Pt2 (Nutrition)](assets/images/testing/nutrition-js-error2.png)
 
@@ -1507,7 +1507,7 @@ These improvements help ensure that users relying on assistive technologies can 
 
 #### Responsiveness Testing
 
-To check responsiveness, the website was tested on a dev tools . This helped confirm that the layout, images and text display correctly and consistently across different screen sizes.
+To check responsiveness, the website was tested on Chrome Devtools . This helped confirm that the layout, images and text display correctly and consistently across different screen sizes.
 
 ---
 
@@ -1523,7 +1523,7 @@ To check responsiveness, the website was tested on a dev tools . This helped con
 
 ---
 
-**MOBILE- Nurition Section**
+**MOBILE- Nutrition Section**
 
 ![Responsiveness on mobile nutrition ](assets/images/testing/mobile-view-nutrition.png)
 
@@ -1553,7 +1553,7 @@ To check responsiveness, the website was tested on a dev tools . This helped con
 
 ---
 
-**TABLET- Nurition Section**
+**TABLET- Nutrition Section**
 
 ![Responsiveness on tablet nutrition ](assets/images/testing/tablet-view-nutrition.png)
 
@@ -1582,7 +1582,7 @@ To check responsiveness, the website was tested on a dev tools . This helped con
 
 ---
 
-**DESKTOP- Nurition Section**
+**DESKTOP- Nutrition Section**
 
 ![Responsiveness on desktop nutrition ](assets/images/testing/desktop-view-nutrition.png)
 
@@ -1686,7 +1686,7 @@ The missing class (social network) was added to the footer HTML element, allowin
 
 **Final Bugs and Justification**
 
-All identified bugs were fixed to improve the overall functionality,layout and user experience of the website. Each issue was reviewed and traced back to its root cause such as incorrect html structure, incorrect css properties or typing errors within bootstrap classes. The necessary corrections were applied to ensure that the page elements displayed in the intended order, responsive layouts worked correctly and components aligned correctly across a variety of screen sizes. After, making these changes the website was tested again to confirm that the fixes were resolved and there were no remaining bugs affecting the user experience.
+All identified bugs were fixed to improve the overall functionality, layout and user experience of the website. Each issue was reviewed and traced back to its root cause such as incorrect html structure, incorrect css properties or typing errors within bootstrap classes. The necessary corrections were applied to ensure that the page elements displayed in the intended order, responsive layouts worked correctly and components aligned correctly across a variety of screen sizes. After, making these changes the website was tested again to confirm that the fixes were resolved and there were no remaining bugs affecting the user experience.
 
 ## Final Project Screenshots
 
