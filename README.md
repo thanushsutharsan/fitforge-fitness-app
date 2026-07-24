@@ -1649,6 +1649,43 @@ Evidence of keyboard testing is shown below:
 
 ![Screenshot of Footer Keyboard Test](assets/images/testing/footer-kb-test.png)
 
+## User Evaluation
+
+### Purpose
+
+User evaluation was carried out to understand how real users interacted with the FitForge Fitness App and to identify whether the website successfully met the needs of the target audience. The evaluation focused on usability, navigation, accessibility, design, and the effectiveness of the fitness and nutrition features.
+
+The aim of the evaluation was to gather feedback from users who match the intended target audience, including people beginning their fitness journey and users interested in improving their training and nutrition.
+
+### Method
+
+Five users tested the final version of the FitForge Fitness App. Users were asked to complete a series of tasks that represented common actions a visitor would perform when using the website.
+
+The tasks included:
+
+- Selecting a fitness goal using the homepage goal selector.
+- Navigating between the Homepage, Workout and Nutrition pages.
+- Using the workout stopwatch feature.
+- Completing the macronutrient calculator.
+- Exploring workout programmes and nutrition resources.
+- Testing the website on different screen sizes.
+
+After completing these tasks, users provided feedback about their experience, including what they liked and what improvements could be made.
+
+### User Evaluation Results
+
+| User | Positive Feedback |
+| --- | --- |
+| User 1 | Found the navigation clear and the website easy to understand. |
+| User 2 | Found the macronutrient calculator useful and simple to use. |
+| User 3 | Found the stopwatch feature helpful for tracking workout duration. |
+| User 4 | Liked the modern fitness design and colour scheme. |
+| User 5 | Found the website responsive and easy to use on mobile devices. |
+
+### Feedback Report
+
+The user evaluation showed that the main strengths of FitForge were its simple navigation, modern design, accessibility features and practical fitness tools. Users particularly liked the goal selection feature, workout stopwatch and macronutrient calculator because these features helped provide guidance based on their fitness needs.
+
 ## Bugs and Fixes
 
 **Navigation Menu Fix (EVIDENCE)**
