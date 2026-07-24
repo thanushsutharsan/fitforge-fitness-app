@@ -1606,6 +1606,19 @@ The layout, images and text all adapt correctly to different screen sizes withou
 
 Using both Chrome DevTools and Am I Responsive? provided two different forms of validation. Chrome DevTools supported the iterative testing process by enabling adjustments to be made during development, while Am I Responsive? served as a final verification tool to showcase the completed website across multiple device formats in a single view. Combining these methods demonstrates that responsiveness was not only implemented at the end of the project but was continuously considered and evaluated throughout the website’s development lifecycle.
 
+### Browser Compatibility Testing
+
+To ensure that FitForge provided a consistent experience for users, cross-browser compatibility testing was carried out across different web browsers. The purpose of this testing was to identify any differences in layout, styling, responsiveness, JavaScript functionality, and overall performance.
+
+The website was tested using popular browsers, including Google Chrome, Microsoft Edge, and Safari. Each browser was checked to ensure that all pages loaded correctly, navigation worked as expected, images displayed properly, and interactive JavaScript features continued to function.
+
+| Browser | Device Tested | Features Tested | Expected Result | Actual Result | Pass/Fail |
+| --- | --- | --- | --- | --- | --- |
+| Google Chrome | Desktop | Navigation, images, CSS styling, JavaScript features, calculator, stopwatch | Website should load correctly with all features working | All pages loaded correctly and all interactive features worked as expected | PASS |
+| Google Chrome | Mobile | Responsive layout, navigation menu, buttons and content spacing | Website should adapt correctly to smaller screen sizes | Layout adjusted correctly and all features remained functional | PASS |
+| Safari | Mobile | Navigation, responsive design, images and JavaScript functionality | Website should display correctly and support all interactive features | Website displayed correctly with no major issues identified | PASS |
+| Microsoft Edge | Desktop | Page loading, styling, links and JavaScript functionality | Website should operate the same as other browsers | All features worked correctly and design remained consistent | PASS |
+
 ### Deployment Testing
 
 The website was deployed using GitHub Pages and tested to ensure that the live version functions correctly after deployment. Testing was completed by accessing the deployed website through the live URL and checking that all pages, assets, and interactive features worked as expected.
